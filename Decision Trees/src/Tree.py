@@ -23,7 +23,10 @@ class BinaryTree:
     def getNodeValue(self):
         return self.rootid
 
-    def printTree(self, depth):
+    def isLeafNode(self):
+        return (self.right is None and self.left is None)
+
+    def printTree(self, depth=0):
         if self.left is None and self.right is None:
             print self.rootid,
         else:

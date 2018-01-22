@@ -99,12 +99,36 @@ class DecisionTree:
         VI = (positive/float(negative+positive))*(negative/float(negative+positive))
         return VI
 
-    heuristics_option = { 'e' : calculate_entropy,
-           'v' : calculate_variance_impurity }
+    def predict_class(self, tree, row):
+        if tree.isLeafNode():
+            return tree.getNodeValue()
+        attribute = tree.getNodeValue()
+        # print 'attribute: ', attribute, row[attribute]
+        if row[attribute] == 0:
+            return self.predict_class(tree.getLeftChild(), row)
+        elif row[attribute] == 1:
+            return self.predict_class(tree.getRightChild(), row)
+
+    def validate_data(self, tree, data):
+        total = len(data['Class'])
+        positives = 0
+        for row in data:
+            if row['Class'] == self.predict_class(tree, row):
+                positives += 1
+        accuracy = positives/float(total)
+        return accuracy
+
+    heuristics_option = {'e': calculate_entropy,
+                         'v': calculate_variance_impurity}
 
 
 # Driver code
 DT = DecisionTree('e')
-data = DT.read_data('../data/data_sets1/training_set.csv')
-tree = DT.learn_tree(data, [])
-tree.printTree(0)
+training_set = DT.read_data('../data/data_sets1/training_set.csv')
+tree = DT.learn_tree(training_set, [])
+tree.printTree()
+validation_set = DT.read_data('../data/data_sets1/validation_set.csv')
+test_set = DT.read_data('../data/data_sets1/test_set.csv')
+print ""
+print "Accuracy of Validation set: ", DT.validate_data(tree, validation_set)
+print "Accuracy of Test set: ", DT.validate_data(tree, test_set)
