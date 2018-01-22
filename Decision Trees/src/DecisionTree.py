@@ -3,6 +3,7 @@ import numpy as np
 import Tree
 import math
 
+
 class DecisionTree:
     """This is an implementation of Decision tree learning.
 
@@ -13,9 +14,10 @@ class DecisionTree:
     implementations assumes the data (Attribute values as well as class) to be
     discrete binary integers.
 
-
     """
+
     def __init__(self, heuristics):
+        """Initialize the decision tree with the heuristics to be used for learning."""
         self.heuristics = heuristics
 
     def read_data(self, filename):
@@ -37,7 +39,8 @@ class DecisionTree:
                 right.append(row)
         return np.array(left, dtype=data.dtype), np.array(right, dtype=data.dtype)
 
-    def learn_tree(self, data, visited_attribute_list):
+    def learn_tree(self, data, visited_attribute_list=[]):
+        """Learn the decision tree on the data."""
         if len(data['Class']) == 0:
             return None
         elif len(data['Class']) == sum(data['Class']):  # All instances are +ve
@@ -59,7 +62,8 @@ class DecisionTree:
                 tree.setRightChild(right_tree)
             return tree
 
-    def choose_best_attribute(self, data, visited_attribute_list):
+    def choose_best_attribute(self, data, visited_attribute_list=[]):
+        """Choose next best attribute to be added in decision tree."""
         visited_attribute_list.append('Class')
         attribute_list = set(x[0] for x in data.dtype.descr) - set(visited_attribute_list)
         attribute_list = list(attribute_list)
@@ -75,17 +79,19 @@ class DecisionTree:
         return best_attribute
 
     def calculate_information_gain(self, data, attribute):
+        """Calculate the information gained for given attribute."""
         current_positive = sum(data['Class'])
         current_negative = len(data['Class']) - current_positive
         gain = self.heuristics_option[self.heuristics](current_positive, current_negative)
         left, right = self.split_data(data, attribute)
-        entropy_l = self.heuristics_option[self.heuristics](sum(left['Class']), len(left['Class']) - sum(left['Class']))
-        entropy_r = self.heuristics_option[self.heuristics](sum(right['Class']), len(right['Class']) - sum(right['Class']))
-        gain -= ((len(left['Class'])/float(len(data['Class'])))*entropy_l)
-        gain -= ((len(right['Class'])/float(len(data['Class'])))*entropy_r)
+        impurity_l = self.heuristics_option[self.heuristics](sum(left['Class']), len(left['Class']) - sum(left['Class']))
+        impurity_r = self.heuristics_option[self.heuristics](sum(right['Class']), len(right['Class']) - sum(right['Class']))
+        gain -= ((len(left['Class'])/float(len(data['Class'])))*impurity_l)
+        gain -= ((len(right['Class'])/float(len(data['Class'])))*impurity_r)
         return gain
 
     def calculate_entropy(positive, negative):
+        """Calculate entropy."""
         if positive == 0 or negative == 0:
             return 0
         pp = positive/float(negative+positive)
@@ -94,22 +100,24 @@ class DecisionTree:
         return H
 
     def calculate_variance_impurity(positive, negative):
+        """Calculate variance impurity."""
         if positive == 0 or negative == 0:
             return 0
         VI = (positive/float(negative+positive))*(negative/float(negative+positive))
         return VI
 
     def predict_class(self, tree, row):
+        """Predict the class for the row using given decision tree."""
         if tree.isLeafNode():
             return tree.getNodeValue()
         attribute = tree.getNodeValue()
-        # print 'attribute: ', attribute, row[attribute]
         if row[attribute] == 0:
             return self.predict_class(tree.getLeftChild(), row)
         elif row[attribute] == 1:
             return self.predict_class(tree.getRightChild(), row)
 
     def validate_data(self, tree, data):
+        """Validate the accuracy of the decision tree for the given data."""
         total = len(data['Class'])
         positives = 0
         for row in data:
@@ -125,7 +133,7 @@ class DecisionTree:
 # Driver code
 DT = DecisionTree('e')
 training_set = DT.read_data('../data/data_sets1/training_set.csv')
-tree = DT.learn_tree(training_set, [])
+tree = DT.learn_tree(training_set)
 tree.printTree()
 validation_set = DT.read_data('../data/data_sets1/validation_set.csv')
 test_set = DT.read_data('../data/data_sets1/test_set.csv')
