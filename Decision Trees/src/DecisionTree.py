@@ -1,7 +1,7 @@
 """This module implements Decision Tree."""
-import random
 import numpy as np
 import Tree
+import math
 
 class DecisionTree:
     """This is an implementation of Decision tree learning.
@@ -26,19 +26,13 @@ class DecisionTree:
         Left returns the subset with attribute value as 0 and Right as 1.
         """
         left = list()
-        left_p = 0
         right = list()
-        right_p = 0
         for row in data:
             if row[attribute] == 0:
                 left.append(row)
-                if row['Class']:
-                    left_p += 1
             else:
                 right.append(row)
-                if row['Class']:
-                    right_p += 1
-        return np.array(left, dtype=data.dtype), left_p, np.array(right, dtype=data.dtype), right_p
+        return np.array(left, dtype=data.dtype), np.array(right, dtype=data.dtype)
 
     def learn_tree(self, data, visited_attribute_list):
         if len(data['Class']) == 0:
@@ -51,10 +45,9 @@ class DecisionTree:
             best_attribute = self.choose_best_attribute(data, visited_attribute_list)
             if best_attribute is None:
                 return None
-            print 'best attribute recieved: ', best_attribute
             visited_attribute_list.append(best_attribute)
             tree = Tree.BinaryTree(best_attribute)
-            left_data, left_p, right_data, right_p = self.split_data(data, best_attribute)
+            left_data, right_data = self.split_data(data, best_attribute)
             left_tree = self.learn_tree(left_data, visited_attribute_list)
             right_tree = self.learn_tree(right_data, visited_attribute_list)
             if left_tree is not None:
@@ -66,10 +59,36 @@ class DecisionTree:
     def choose_best_attribute(self, data, visited_attribute_list):
         visited_attribute_list.append('Class')
         attribute_list = set(x[0] for x in data.dtype.descr) - set(visited_attribute_list)
-        if len(attribute_list) == 0:
+        attribute_list = list(attribute_list)
+        if attribute_list is None or len(attribute_list) == 0 or len(data['Class']) == 0:
             return None
-        # print attribute_list
-        return random.choice(list(attribute_list))        
+        max_gain = float('-inf')
+        best_attribute = None
+        for attribute in attribute_list:
+            gain = self.calculate_information_gain(data, attribute)
+            if gain > max_gain:
+                max_gain = gain
+                best_attribute = attribute
+        return best_attribute
+
+    def calculate_information_gain(self, data, attribute):
+        current_positive = sum(data['Class'])
+        current_negative = len(data['Class']) - current_positive
+        gain = self.calculate_entropy(current_positive, current_negative)
+        left, right = self.split_data(data, attribute)
+        entropy_l = self.calculate_entropy(sum(left['Class']), len(left['Class']) - sum(left['Class']))
+        entropy_r = self.calculate_entropy(sum(right['Class']), len(right['Class']) - sum(right['Class']))
+        gain -= ((len(left['Class'])/float(len(data['Class'])))*entropy_l)
+        gain -= ((len(right['Class'])/float(len(data['Class'])))*entropy_r)
+        return gain
+
+    def calculate_entropy(self, positive, negative):
+        if positive == 0 or negative == 0:
+            return 0
+        pp = positive/float(negative+positive)
+        pn = negative/float(negative+positive)
+        H = -(pp * math.log(pp, 2)) - (pn * math.log(pn, 2))
+        return H
 
 
 # Driver code
@@ -77,5 +96,3 @@ DT = DecisionTree()
 data = DT.read_data('../data/play_set.csv')
 tree = DT.learn_tree(data, [])
 tree.printTree(0)
-# a, b, c, d = DT.split_data(data, 'XG')
-# print len(a), b, len(c), d
