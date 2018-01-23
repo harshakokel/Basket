@@ -2,6 +2,9 @@
 import numpy as np
 import Tree
 import math
+import copy
+import random
+import sys
 
 
 class DecisionTree:
@@ -53,6 +56,8 @@ class DecisionTree:
                 return None
             visited_attribute_list.append(best_attribute)
             tree = Tree.BinaryTree(best_attribute)
+            tree.setPositiveExamples(sum(data['Class']))
+            tree.setNegativeExamples(len(data['Class']) - sum(data['Class']))
             left_data, right_data = self.split_data(data, best_attribute)
             left_tree = self.learn_tree(left_data, list(visited_attribute_list))
             right_tree = self.learn_tree(right_data, list(visited_attribute_list))
@@ -112,9 +117,15 @@ class DecisionTree:
             return tree.getNodeValue()
         attribute = tree.getNodeValue()
         if row[attribute] == 0:
-            return self.predict_class(tree.getLeftChild(), row)
+            if tree.getLeftChild():
+                return self.predict_class(tree.getLeftChild(), row)
+            else:
+                return tree.getNodeValue()
         elif row[attribute] == 1:
-            return self.predict_class(tree.getRightChild(), row)
+            if tree.getRightChild():
+                return self.predict_class(tree.getRightChild(), row)
+            else:
+                return tree.getNodeValue()
 
     def validate_data(self, tree, data):
         """Validate the accuracy of the decision tree for the given data."""
@@ -126,17 +137,106 @@ class DecisionTree:
         accuracy = positives/float(total)
         return accuracy
 
+    def post_pruning(self, decision_tree, validation_set, L, K):
+        """Implement post pruning algo given in HW."""
+        best_tree = copy.deepcopy(decision_tree)
+        current_accuracy = self.validate_data(best_tree, validation_set)
+        for i in range(0, L):
+            tree_prime = copy.deepcopy(best_tree)
+            M = random.randint(0, K)
+            for j in range(0, M):
+                node_list = tree_prime.level_ordered_array()
+                P = random.randint(0, len(node_list)-1)
+                node = node_list[P]
+                l_child = node.getLeftChild()
+                r_child = node.getRightChild()
+                if l_child is None or r_child is None:
+                    pass
+                else:
+                    if l_child.getPositiveExamples() > l_child.getNegativeExamples():
+                        node.setLeftChild(Tree.BinaryTree(1))
+                    else:
+                        node.setLeftChild(Tree.BinaryTree(0))
+                    if r_child.getPositiveExamples() > r_child.getNegativeExamples():
+                        node.setRightChild(Tree.BinaryTree(1))
+                    else:
+                        node.setRightChild(Tree.BinaryTree(0))
+            new_accuracy = self.validate_data(tree_prime, validation_set)
+            if new_accuracy > current_accuracy:
+                best_tree = tree_prime
+                current_accuracy = new_accuracy
+        return best_tree
+
+    def reduced_error_pruning(self, tree, validation_data, current_accuracy=0):
+        """Prune the tree till the accuracy increases on the validation data."""
+        score, prune_tree = self.prune_node(tree, tree, validation_data, tree)
+        new_accuracy = self.validate_data(prune_tree, validation_data)
+        if new_accuracy > current_accuracy:
+            return self.prune(prune_tree, validation_data, new_accuracy)
+        else:
+            return tree
+
+    def prune_node(self, root, node, validation_set, best_tree, best_score=0):
+        """Prune a node from the tree rooted at root.
+
+        Select the node which results in maximum accuracy improvement over
+        validation set.
+        """
+        if node.left is None and node.right is None:
+            return best_score, best_tree
+        else:
+            l_child = node.getLeftChild()
+            r_child = node.getRightChild()
+            best_score, best_tree = self.prune_node(root, l_child, validation_set, best_tree, best_score)
+            best_score, best_tree = self.prune_node(root, r_child, validation_set, best_tree, best_score)
+            if l_child.getPositiveExamples() > l_child.getNegativeExamples():
+                node.setLeftChild(Tree.BinaryTree(1))
+            else:
+                node.setLeftChild(Tree.BinaryTree(0))
+            if r_child.getPositiveExamples() > r_child.getNegativeExamples():
+                node.setRightChild(Tree.BinaryTree(1))
+            else:
+                node.setRightChild(Tree.BinaryTree(0))
+            score = self.validate_data(root, validation_set)
+            if score > best_score:
+                best_score = score
+                best_tree = copy.deepcopy(root)
+            node.setLeftChild(l_child)
+            node.setRightChild(r_child)
+            return best_score, best_tree
+
     heuristics_option = {'e': calculate_entropy,
                          'v': calculate_variance_impurity}
 
 
 # Driver code
-DT = DecisionTree('e')
-training_set = DT.read_data('../data/data_sets1/training_set.csv')
+DT = DecisionTree('v')
+if len(sys.argv) < 7:
+    print ("needs 6 arguments")
+    sys.exit()
+training_set = DT.read_data(sys.argv[3])
 tree = DT.learn_tree(training_set)
-tree.printTree()
-validation_set = DT.read_data('../data/data_sets1/validation_set.csv')
-test_set = DT.read_data('../data/data_sets1/test_set.csv')
-print ""
-print "Accuracy of Validation set: ", DT.validate_data(tree, validation_set)
-print "Accuracy of Test set: ", DT.validate_data(tree, test_set)
+validation_set = DT.read_data(sys.argv[4])
+new_tree = DT.post_pruning(tree, validation_set, int(sys.argv[1]), int(sys.argv[2]))
+test_set = DT.read_data(sys.argv[5])
+if sys.argv[6] == "yes":
+    new_tree.printTree()
+    print ""
+print "Accuracy on Training set: ", DT.validate_data(new_tree, training_set)
+print "Accuracy on Validation set: ", DT.validate_data(new_tree, validation_set)
+print "Accuracy on Test set: ", DT.validate_data(new_tree, test_set)
+
+# training_set = DT.read_data('../data/data_sets1/training_set.csv')
+# tree = DT.learn_tree(training_set)
+# tree.printTree()
+# validation_set = DT.read_data('../data/data_sets1/validation_set.csv')
+# test_set = DT.read_data('../data/data_sets1/test_set.csv')
+# print ""
+# print "Accuracy of Trainig set: ", DT.validate_data(tree, training_set)
+# print "Accuracy of Validation set: ", DT.validate_data(tree, validation_set)
+# print "Accuracy of Test set: ", DT.validate_data(tree, test_set)
+#
+# new_tree = DT.post_pruning(tree, validation_set, 100, 10)
+# print "Accuracy of Trainig set: ", DT.validate_data(new_tree, training_set)
+# print "Accuracy of Validation set: ", DT.validate_data(new_tree, validation_set)
+# print "Accuracy of Test set: ", DT.validate_data(new_tree, test_set)

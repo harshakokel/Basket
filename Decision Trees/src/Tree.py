@@ -1,3 +1,4 @@
+import Queue as Q
 class BinaryTree:
 
     def __init__(self,rootid):
@@ -39,6 +40,25 @@ class BinaryTree:
 
     def isLeafNode(self):
         return (self.right is None and self.left is None)
+
+    def level_ordered_array(self):
+        if self.isLeafNode():
+            return []
+        queue = Q.Queue()
+        node_list = list()
+        queue.put(self)
+        node_list.append(self)
+        while not queue.empty():
+            node = queue.get()
+            l_child = node.getLeftChild()
+            r_child = node.getRightChild()
+            if l_child and not l_child.isLeafNode():
+                queue.put(l_child)
+                node_list.append(l_child)
+            if r_child and not r_child.isLeafNode():
+                queue.put(r_child)
+                node_list.append(r_child)
+        return node_list
 
     def printTree(self, depth=0):
         if self.left is None and self.right is None:
