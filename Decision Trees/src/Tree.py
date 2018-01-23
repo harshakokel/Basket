@@ -4,6 +4,8 @@ class BinaryTree:
       self.left = None
       self.right = None
       self.rootid = rootid
+      self.positives = None
+      self.negatives = None
 
     def getLeftChild(self):
         return self.left
@@ -16,6 +18,18 @@ class BinaryTree:
 
     def setRightChild(self, tree):
         self.right = tree
+
+    def setPositiveExamples(self,value):
+        self.positives = value
+
+    def getPositiveExamples(self):
+        return self.positives
+
+    def setNegativeExamples(self,value):
+        self.negatives = value
+
+    def getNegativeExamples(self):
+        return self.negatives
 
     def setNodeValue(self,value):
         self.rootid = value
