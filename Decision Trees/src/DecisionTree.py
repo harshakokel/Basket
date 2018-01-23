@@ -210,10 +210,11 @@ class DecisionTree:
 
 
 # Driver code
-DT = DecisionTree('v')
 if len(sys.argv) < 7:
     print ("needs 6 arguments")
     sys.exit()
+DT = DecisionTree('e')
+print "===== Information Gain Heuristic starts ====="
 training_set = DT.read_data(sys.argv[3])
 tree = DT.learn_tree(training_set)
 validation_set = DT.read_data(sys.argv[4])
@@ -225,18 +226,19 @@ if sys.argv[6] == "yes":
 print "Accuracy on Training set: ", DT.validate_data(new_tree, training_set)
 print "Accuracy on Validation set: ", DT.validate_data(new_tree, validation_set)
 print "Accuracy on Test set: ", DT.validate_data(new_tree, test_set)
+print "===== Information Gain Heuristic ends ====="
 
-# training_set = DT.read_data('../data/data_sets1/training_set.csv')
-# tree = DT.learn_tree(training_set)
-# tree.printTree()
-# validation_set = DT.read_data('../data/data_sets1/validation_set.csv')
-# test_set = DT.read_data('../data/data_sets1/test_set.csv')
-# print ""
-# print "Accuracy of Trainig set: ", DT.validate_data(tree, training_set)
-# print "Accuracy of Validation set: ", DT.validate_data(tree, validation_set)
-# print "Accuracy of Test set: ", DT.validate_data(tree, test_set)
-#
-# new_tree = DT.post_pruning(tree, validation_set, 100, 10)
-# print "Accuracy of Trainig set: ", DT.validate_data(new_tree, training_set)
-# print "Accuracy of Validation set: ", DT.validate_data(new_tree, validation_set)
-# print "Accuracy of Test set: ", DT.validate_data(new_tree, test_set)
+print "===== Variance Impurity Heuristic starts ====="
+DT = DecisionTree('v')
+training_set = DT.read_data(sys.argv[3])
+tree = DT.learn_tree(training_set)
+validation_set = DT.read_data(sys.argv[4])
+new_tree = DT.post_pruning(tree, validation_set, int(sys.argv[1]), int(sys.argv[2]))
+test_set = DT.read_data(sys.argv[5])
+if sys.argv[6] == "yes":
+    new_tree.printTree()
+    print ""
+print "Accuracy on Training set: ", DT.validate_data(new_tree, training_set)
+print "Accuracy on Validation set: ", DT.validate_data(new_tree, validation_set)
+print "Accuracy on Test set: ", DT.validate_data(new_tree, test_set)
+print "===== Variance Impurity Heuristic ends ====="
