@@ -63,8 +63,18 @@ class DecisionTree:
             right_tree = self.learn_tree(right_data, list(visited_attribute_list))
             if left_tree is not None:
                 tree.setLeftChild(left_tree)
+            else:
+                if len(data['Class']) > (2*sum(data['Class'])):
+                    tree.setLeftChild(Tree.BinaryTree(0))
+                else:
+                    tree.setLeftChild(Tree.BinaryTree(1))
             if right_tree is not None:
                 tree.setRightChild(right_tree)
+            else:
+                if len(data['Class']) < (2*sum(data['Class'])):
+                    tree.setRightChild(Tree.BinaryTree(0))
+                else:
+                    tree.setRightChild(Tree.BinaryTree(1))
             return tree
 
     def choose_best_attribute(self, data, visited_attribute_list=[]):
@@ -135,7 +145,7 @@ class DecisionTree:
             if row['Class'] == self.predict_class(tree, row):
                 positives += 1
         accuracy = positives/float(total)
-        return accuracy
+        return (accuracy*100)
 
     def post_pruning(self, decision_tree, validation_set, L, K):
         """Implement post pruning algo given in HW."""
@@ -218,16 +228,15 @@ print "===== Information Gain Heuristic starts ====="
 training_set = DT.read_data(sys.argv[3])
 tree = DT.learn_tree(training_set)
 validation_set = DT.read_data(sys.argv[4])
-new_tree = DT.post_pruning(tree, validation_set, int(sys.argv[1]), int(sys.argv[2]))
 test_set = DT.read_data(sys.argv[5])
+new_tree = DT.post_pruning(tree, validation_set, int(sys.argv[1]), int(sys.argv[2]))
 if sys.argv[6] == "yes":
     new_tree.printTree()
     print ""
-print "Accuracy on Training set: ", DT.validate_data(new_tree, training_set)
-print "Accuracy on Validation set: ", DT.validate_data(new_tree, validation_set)
-print "Accuracy on Test set: ", DT.validate_data(new_tree, test_set)
+print "Accuracy on Test set before pruning: ", DT.validate_data(tree, test_set)
+print "Accuracy on Test set after pruning: ", DT.validate_data(new_tree, test_set)
 print "===== Information Gain Heuristic ends ====="
-
+print ""
 print "===== Variance Impurity Heuristic starts ====="
 DT = DecisionTree('v')
 training_set = DT.read_data(sys.argv[3])
@@ -238,7 +247,6 @@ test_set = DT.read_data(sys.argv[5])
 if sys.argv[6] == "yes":
     new_tree.printTree()
     print ""
-print "Accuracy on Training set: ", DT.validate_data(new_tree, training_set)
-print "Accuracy on Validation set: ", DT.validate_data(new_tree, validation_set)
-print "Accuracy on Test set: ", DT.validate_data(new_tree, test_set)
+print "Accuracy on Test set before pruning: ", DT.validate_data(tree, test_set)
+print "Accuracy on Test set after pruning: ", DT.validate_data(new_tree, test_set)
 print "===== Variance Impurity Heuristic ends ====="
