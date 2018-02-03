@@ -22,7 +22,7 @@ where X is an attribute, Sx denotes the set of training examples that have X = x
 ##### Pruning Tree
 Implement Post Pruning algorithm as given below.
 
- ![alt text](https://github.com/harshakokel/Machine-Learning/blob/master/Assets/post-pruning-algo.png, "Post Pruning Algorithm")
+ ![alt text](https://github.com/harshakokel/Machine-Learning/blob/master/Assets/post-pruning-algo.png "Post Pruning Algorithm")
  
 ##### Usage
 .\program <L> <K> <training-set> <validation-set> <test-set> <to-print>
