@@ -17,12 +17,7 @@ VI(S) = \frac{K0}{K} * K1/K
 
 Notice that the impurity is 0 when the data is pure. The gain for this impurity is defined as usual
 
-```math
-Gain(S;X) = V I(S) 􀀀
-X
-x2V alues(X)
-Pr(x)V I(Sx)
-```
+ ![alt text](https://github.com/harshakokel/Machine-Learning/blob/master/Assets/information-gain-equation.png, "Information Gain equation")
 
 where X is an attribute, Sx denotes the set of training examples that have X = x and Pr(x) is the fraction of the training examples that have X = x (i.e., the number of training examples that have X = x divided by the number of training examples in S).
 
