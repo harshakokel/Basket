@@ -11,9 +11,7 @@ The following two heuristics are implemented for selecting the next attribute:
 2. Variance impurity heuristic described below.  
 Let K denote the number of examples in the training set. Let K0 denote the number of training examples that have class = 0 and K1 denote the number of training examples that have class = 1. The variance impurity of the training set S is defined as
 
-```math
-VI(S) = \frac{K0}{K} * K1/K
-```
+ ![alt text](https://github.com/harshakokel/Machine-Learning/blob/master/Assets/variance-impurity-equation.png "Variance Impurity equation")
 
 Notice that the impurity is 0 when the data is pure. The gain for this impurity is defined as usual
 
@@ -24,6 +22,8 @@ where X is an attribute, Sx denotes the set of training examples that have X = x
 ##### Pruning Tree
 Implement Post Pruning algorithm as given below.
 
+ ![alt text](https://github.com/harshakokel/Machine-Learning/blob/master/Assets/post-pruning-algo.png, "Post Pruning Algorithm")
+ 
 ##### Usage
 .\program <L> <K> <training-set> <validation-set> <test-set> <to-print>
 
