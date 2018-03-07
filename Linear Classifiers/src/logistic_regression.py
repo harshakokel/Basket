@@ -1,4 +1,3 @@
-import os
 import numpy as np
 from classifier import classifier
 from math import exp, log
@@ -176,16 +175,9 @@ class LogisticRegression(classifier):
     def gradient_descent(self, examples):
         # Predict all the training examples
         predictions = []
-        likelihood = 0  # Likelihood is being printed only to observe convergence
         for X in examples:
-                prediction_0 = self.predict_0(X)
                 prediction_1 = self.predict_1(X)
-                expectation = X[self.label]
                 predictions.append(prediction_1)
-                likelihood += (expectation*log(prediction_1)) + ((1-expectation)*log(prediction_0))
-        mod_w = np.linalg.norm(list(self.weights.values()))
-        log_likelihood = likelihood - (self.lambda_value* mod_w * mod_w /2)
-        print ("log-likelihood: ", log_likelihood)
 
         # Update weights
         updated_weights = {w:0 for w in self.weights }
@@ -197,8 +189,6 @@ class LogisticRegression(classifier):
                 temp += (examples[l][i]* (examples[l][self.label] - predictions[l]))
             # W(t+1) = W(t) + alpha*Sum_over_samples(X*(Expected - Predicted)) - alpha*lambda*W(t)
             updated_weights[i] = self.weights[i] + (self.learning_rate*temp) - (self.learning_rate*self.lambda_value*self.weights[i] )
-            if updated_weights[i] < 0:
-                print( "=====================")
         self.weights = updated_weights
 
     def sigmoid(self, z):
@@ -207,23 +197,21 @@ class LogisticRegression(classifier):
         except OverflowError:
             print ("overflow")
             return 0 # If z overflows return 1/1+exp(700)
-        
+
     def predict_1(self, X):
         z = self.dot_product(X)
         return 1/(1+exp(-1*z))
-    
-    
+
     def predict_0(self, X):
         z = self.dot_product(X)
         return 1/(1+exp(z))
-    
+
     def dot_product(self, X):
         z = 0
         for i in self.weights:
             z += X[i]* self.weights[i]
-#         print(z)
         return z
-    
+
     def test(self, test_set):
         # Get List of files
         testing_directory = test_set
@@ -253,11 +241,3 @@ class LogisticRegression(classifier):
                 print ("Random file")
             count += 1
         self.validate(X_matrix)
-
-
-# Driver Code
-LR = LogisticRegression()
-lambda_candidates = [0.01, 0.05]
-# LR.train_and_learn("data/data_set_3/train", lambda_candidates)
-LR.train("data/data_set_3/train", 6)
-LR.test("data/play/test")

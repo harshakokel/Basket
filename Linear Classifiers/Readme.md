@@ -1,6 +1,9 @@
-This project was implemented using python ** (version 3) ** as part of Homework-2 in CS 6375 Machine Learning at University of Texas at Dallas in Spring 2018 by Harsha Kokel.
+# Linear Classifiers
 
-This homework asked for implementation of three classifiers: Naive Bayes, Logistic Regression and Perceptron for  Spam/Ham classification problem.
+
+This project was implemented using python * (version 3) * as part of Homework-2 in CS 6375 Machine Learning at University of Texas at Dallas in Spring 2018 by Harsha Kokel.
+
+This homework asked for implementation of three classifiers: **Naive Bayes**, **Logistic Regression** and **Perceptron** for  Spam/Ham classification problem.
 Three data sets were provided for this problems.
 
 **NOTE** For all the data sets, the training folder should have two folders with the class names. In all the example usages below, `data/data_set_1/train` is a training folder, so `/train` has two folders `/ham` and `/spam` inside  `/train`. Similarly, the testing folder `data/data_set_1/test` also has two folders `/ham` and `/spam` inside  `/test`.
