@@ -26,18 +26,18 @@ Implement Post Pruning algorithm as given below.
 
  ![alt text](https://github.com/harshakokel/Machine-Learning/blob/master/Assets/post-pruning-algo.png "Post Pruning Algorithm")
  
-##### Usage
+#### Usage
 
 The code takes 6 arguments
 
 python DecisionTree.py &lt;L&gt; &lt;K&gt; &lt;training-set&gt; &lt;validation-set&gt; &lt;test-set&gt; &lt;to-print&gt;    
 
-L: integer (used in the post-pruning algorithm)  
-K: integer (used in the post-pruning algorithm)  
-training-set : path to training csv
-validation-set : path to validation csv
-test-set : path to test csv
-to-print:{yes,no}  
+**L**: integer (used in the post-pruning algorithm)    
+**K**: integer (used in the post-pruning algorithm)  
+**training-set**: path to training csv  
+**validation-set**: path to validation csv  
+**test-set**: path to test csv  
+**to-print**: {yes,no}    
 
 Sample run:  
 
