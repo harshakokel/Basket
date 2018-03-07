@@ -8,14 +8,6 @@ Three data sets were provided for this problems.
 ### 1. Naive Bayes
 This classifier uses bag-of-words model to calculate the prior & conditional probabilities and uses these probabilities to determine the class of the test example. I tried removing the stopwords but found that removing the stop words reduces the accuracy.
 
-Running Naive Bayes classifier on the three data sets resulted in following accuracies:
-
-
-| Data Set | Accuracies |
-| ------------- |:---------: |
-| data_set_1 | 94.98 |
-| data_set_2 | 91.88 |
-| data_set_3 | 93.73 |
 
 ##### Usage
 
@@ -47,15 +39,6 @@ Accuracy:  93.73848987108656
 
 This classifier is implemented in `logistic_regrssion.py` file. inside `/src` folder. This classifier treats lambda as hyper parameter and learns that for three data set using 70/30 split for training/validation data. The LogR classifiers updates the weight using gradient ascent which is a batch algorithm. It continues updating the values for 100 iterations. Learning rate used was 0.05.
 
-Running this perceptron on the three data sets resulted in following accuracies:
-
-
-
-| Data Set | Accuracies | Lambda |   
-| ------------- |:---------: | :-----:|  
-| data_set_1 | 96.72 | 0.1 |  
-| data_set_2 | 94.6 | 0.1 |
-| data_set_3 | 92.7 | 0.1 |
 
 
 ##### Usage
@@ -90,15 +73,6 @@ log likelihood:  -791.3085215876044
 
 This classifier is implemented in `perceptron.py` file inside `/src` folder. This classifier treats number of iterations as hyper parameter and learns that for three data set using 70/30 split for training/validation data. The perceptron classifiers updates the weight after predicting each example and continues this till all the examples in the training set are classified correctly. In case of non-linearly seperable data perceptron may never be able to classify all the data correctly, So we have used a hard bound of 50 iteration. In case all examples are not classified correctly even after 50 iterations, perceptron will end the learning and simply use the weights updated in 50th iteration. Learning rate used was 0.005.
 
-Running this perceptron on the three data sets resulted in following accuracies:
-
-
-
-| Data Set | Accuracies | No of iterations |   
-| ------------- |:---------: | :-----:|  
-| data_set_1 | 95.60 | 5 |  
-| data_set_2 | 93.20 | 4 |
-| data_set_3 | 96.13 | 3 |
 
 
 
