@@ -6,4 +6,6 @@ This repository contains implementations of below mentioned machine learning alg
 2. Linear Classifiers  
     * Naive Bayes  
     * Logistic Regression
-    * Perceptron  
+    * Perceptron
+3. Collaborative Filter
+4. K-Means
