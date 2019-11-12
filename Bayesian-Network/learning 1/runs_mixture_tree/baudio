@@ -1,0 +1,128 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset baudio.ts.data ...
+converged after 6 iterations
+K value: 2 | datasets/baudio.valid.data : -60.363461505917016
+time: 17
+converged after 11 iterations
+K value: 2 | datasets/baudio.valid.data : -60.357897607779265
+time: 32
+converged after 14 iterations
+K value: 2 | datasets/baudio.valid.data : -60.347233885229535
+time: 42
+converged after 12 iterations
+K value: 2 | datasets/baudio.valid.data : -60.349957226074764
+time: 33
+converged after 13 iterations
+K value: 2 | datasets/baudio.valid.data : -60.337838652097815
+time: 45
+ Average logLikelihood for K=2 is -60.35127777541968
+converged after 33 iterations
+K value: 5 | datasets/baudio.valid.data : -58.533606920378745
+time: 432
+converged after 25 iterations
+K value: 5 | datasets/baudio.valid.data : -58.6813699891828
+time: 346
+converged after 22 iterations
+K value: 5 | datasets/baudio.valid.data : -58.64570407139707
+time: 288
+converged after 27 iterations
+K value: 5 | datasets/baudio.valid.data : -58.56436224772982
+time: 368
+converged after 28 iterations
+K value: 5 | datasets/baudio.valid.data : -58.611888810397446
+time: 363
+ Average logLikelihood for K=5 is -58.607386407817174
+converged after 22 iterations
+K value: 10 | datasets/baudio.valid.data : -58.010528531865845
+time: 608
+converged after 19 iterations
+K value: 10 | datasets/baudio.valid.data : -57.977828060985956
+time: 502
+converged after 20 iterations
+K value: 10 | datasets/baudio.valid.data : -57.99568522336595
+time: 529
+converged after 17 iterations
+K value: 10 | datasets/baudio.valid.data : -57.98021767960998
+time: 437
+converged after 22 iterations
+K value: 10 | datasets/baudio.valid.data : -57.923247506101404
+time: 559
+ Average logLikelihood for K=10 is -57.97750140038583
+converged after 17 iterations
+K value: 15 | datasets/baudio.valid.data : -57.75188691141059
+time: 670
+converged after 16 iterations
+K value: 15 | datasets/baudio.valid.data : -57.8308358619329
+time: 637
+converged after 19 iterations
+K value: 15 | datasets/baudio.valid.data : -57.70386975436338
+time: 475
+converged after 22 iterations
+K value: 15 | datasets/baudio.valid.data : -57.72925816170363
+time: 618
+converged after 20 iterations
+K value: 15 | datasets/baudio.valid.data : -57.66654307734852
+time: 441
+ Average logLikelihood for K=15 is -57.7364787533518
+converged after 20 iterations
+K value: 20 | datasets/baudio.valid.data : -57.68290076348727
+time: 790
+converged after 24 iterations
+K value: 20 | datasets/baudio.valid.data : -57.53274158991178
+time: 923
+converged after 16 iterations
+K value: 20 | datasets/baudio.valid.data : -57.65663226994167
+time: 697
+converged after 18 iterations
+K value: 20 | datasets/baudio.valid.data : -57.50267761545497
+time: 644
+converged after 21 iterations
+K value: 20 | datasets/baudio.valid.data : -57.56708883337226
+time: 746
+ Average logLikelihood for K=20 is -57.58840821443359
+converged after 22 iterations
+K value: 25 | datasets/baudio.valid.data : -57.62656529798782
+time: 1288
+converged after 20 iterations
+K value: 25 | datasets/baudio.valid.data : -57.644705373417914
+time: 885
+converged after 15 iterations
+K value: 25 | datasets/baudio.valid.data : -57.577040100770134
+time: 868
+converged after 14 iterations
+K value: 25 | datasets/baudio.valid.data : -57.726412635825916
+time: 620
+converged after 22 iterations
+K value: 25 | datasets/baudio.valid.data : -57.58127807027142
+time: 980
+ Average logLikelihood for K=25 is -57.63120029565464
+Threshold found at: 25
+ Best BN is 20
+K value: 20 | baudio.test.data : -57.901425872332396
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:24 h
+[INFO] Finished at: 2018-04-23T19:04:50-05:00
+[INFO] Final Memory: 7M/40M
+[INFO] ------------------------------------------------------------------------

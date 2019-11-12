@@ -1,0 +1,563 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset nltcs.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.664817036249284
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.664814963114564
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.584256167812292
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.584261799499519
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.634594852786067
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.634590659591305
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.69348270893472
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.693481289801028
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.631109945088706
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.631107775970795
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.662415552913377
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.662416032300387
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.607047034167186
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.607051919416039
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.693023497147273
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.693023517218652
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.629064989483574
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.629063982131763
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.696066003357949
+K value: 2 | loglikelihood of datasets/nltcs.valid.data is -9.696065966989222
+time: 0 secs
+Average Baseline logLikelihood for K=2 is -9.64958777879404
+Average logLikelihood for K=2 is -9.649587790603327
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602083139359912
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.602084238467086
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.582501094863979
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.58250153714828
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.611926377585744
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.611931116453945
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.654872500847262
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.654872673267686
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.693187183296372
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.69318717648841
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.628842702149065
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.628842928491837
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.594699140336033
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.594705063419944
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.635653116065251
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.635653470308768
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.62672036313708
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.626725373863351
+time: 0 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.611947084443734
+K value: 5 | loglikelihood of datasets/nltcs.valid.data is -9.611949578905296
+time: 0 secs
+Average Baseline logLikelihood for K=5 is -9.624243270208444
+Average logLikelihood for K=5 is -9.62424531568146
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.596132725218984
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.596136020586886
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.588754587720404
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.588756529519143
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.609667235775664
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.60966783585598
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.612349674578391
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.612351898553653
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.615849332962489
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.61585021177349
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.604954943777841
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.604955367156276
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.601278868204401
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.601281038681915
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.632286039838473
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.632288198493791
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.593041071278877
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.59304353517456
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.596018237245424
+K value: 10 | loglikelihood of datasets/nltcs.valid.data is -9.59602335382979
+time: 0 secs
+Average Baseline logLikelihood for K=10 is -9.605033271660096
+Average logLikelihood for K=10 is -9.60503539896255
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.594974472110156
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.594975698201186
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.583273053060282
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.583274482686393
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.642449710747298
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.642449915250586
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.573354614823245
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.57335585732576
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.621708965341492
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.621709985034906
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.582177800318734
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.582178899528833
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.590445383734933
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.590446881496318
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.609336821749675
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.609337995134291
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598968005523727
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.598969220770075
+time: 0 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.629427491332223
+K value: 20 | loglikelihood of datasets/nltcs.valid.data is -9.629428086730723
+time: 0 secs
+Average Baseline logLikelihood for K=20 is -9.602611631874177
+Average logLikelihood for K=20 is -9.602612702215907
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.61023922565335
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.610239675215873
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.608194657149607
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.608195164097099
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.593883991804846
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.593884540548553
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.601325391866428
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.601325783560366
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.618301718161641
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.618302028729513
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.620464454231499
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.620464754003361
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.59002138932662
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.590022072231863
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.594889062222505
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.5948895652154
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.612401170273182
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.612401627773027
+time: 2 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.614683907106324
+K value: 50 | loglikelihood of datasets/nltcs.valid.data is -9.614684449321667
+time: 2 secs
+Average Baseline logLikelihood for K=50 is -9.606440496779602
+Average logLikelihood for K=50 is -9.606440966069673
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602090874522144
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.602091121020615
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.589419623376676
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.589419949425539
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.592008657058537
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.592008856769576
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.59673810386503
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.59673835851787
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.606310966231762
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.606311307910383
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.589546960666334
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.589547272239326
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.607499036519958
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.607499213737846
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.59950721329776
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.599507443708942
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.607705218543227
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.607705482166743
+time: 4 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598833602779012
+K value: 100 | loglikelihood of datasets/nltcs.valid.data is -9.598833925379651
+time: 4 secs
+Average Baseline logLikelihood for K=100 is -9.598966025686043
+Average logLikelihood for K=100 is -9.59896629308765
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.618296381109014
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.618296503956246
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.601246026718979
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.601246178075844
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.61104036526936
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.611040539444902
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.59834237596398
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.598342553818233
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598870055522644
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.598870238008727
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60380375057468
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.603803956637678
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.608074331913043
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.60807448299662
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.601558809709015
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.601559010660116
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.604705077622162
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.604705238347917
+time: 6 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602871868729196
+K value: 150 | loglikelihood of datasets/nltcs.valid.data is -9.602872055589353
+time: 6 secs
+Average Baseline logLikelihood for K=150 is -9.604880904313209
+Average logLikelihood for K=150 is -9.604881075753564
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.607482228829678
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.607482362674777
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598727727656197
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.598727878689278
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.604980286325507
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.6049803971345
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.599803685602996
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.599803853923632
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.607703278915581
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.607703400308608
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602729808925414
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.60272992608267
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602834333128941
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.602834448942287
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.609394843607516
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.609394956721177
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602019297768473
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.602019434372593
+time: 8 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598663650906175
+K value: 200 | loglikelihood of datasets/nltcs.valid.data is -9.5986637719794
+time: 8 secs
+Average Baseline logLikelihood for K=200 is -9.603433914166647
+Average logLikelihood for K=200 is -9.603434043082894
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.609038275814475
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.609038372500262
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605883487024043
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.605883593236149
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60101620249351
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.601016314612755
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.606250363317166
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.60625045948056
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.603510949319682
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.603511046543739
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.595167130894882
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.595167240456027
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.603051148810398
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.603051235778725
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.606051818294308
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.606051919140524
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605720455687527
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.605720568357613
+time: 10 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.607722158526675
+K value: 250 | loglikelihood of datasets/nltcs.valid.data is -9.607722247402823
+time: 10 secs
+Average Baseline logLikelihood for K=250 is -9.604341199018267
+Average logLikelihood for K=250 is -9.604341299750917
+Best K Value is 100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 05:39 min
+[INFO] Finished at: 2018-04-24T14:32:11-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset nltcs.ts.data ...
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605526518169533
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.605526565533284
+time: 21 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60635459424022
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.606354640825128
+time: 21 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598381339024026
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.598381401021049
+time: 20 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605267928086445
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.605267975336808
+time: 20 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605169583221919
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.605169633108012
+time: 21 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602175703403041
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.602175750912714
+time: 21 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.601566367715753
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.601566419635475
+time: 22 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.599371460172392
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.599371510598264
+time: 23 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605200746673491
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.605200792747045
+time: 22 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.604021119377371
+K value: 500 | loglikelihood of datasets/nltcs.valid.data is -9.60402116386889
+time: 23 secs
+Average Baseline logLikelihood for K=500 is -9.60330353600842
+Average logLikelihood for K=500 is -9.603303585358667
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605426781878622
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.605426805485306
+time: 45 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60253271423575
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.602532740083516
+time: 45 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.605249257276705
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.605249283174345
+time: 44 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.6014872536797
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.601487279430291
+time: 45 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.597483330988236
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.59748335678486
+time: 45 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.600945487540804
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.600945515446348
+time: 45 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60350319107777
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.603503214527953
+time: 45 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602699987213215
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.602700012176996
+time: 44 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598886262611789
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.59888629212153
+time: 47 secs
+Bagging 1000 Mixture Tree Bayesian Network
+K value: 1000 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60354484807292
+K value: 1000 | loglikelihood of datasets/nltcs.valid.data is -9.603544877175107
+time: 45 secs
+Average Baseline logLikelihood for K=1000 is -9.60217591145755
+Average logLikelihood for K=1000 is -9.602175937640627
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.594237260546423
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.594237280688331
+time: 67 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.600442963152675
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.600442980920638
+time: 67 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602090721934632
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.602090739083302
+time: 67 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.60133769431726
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.601337711176638
+time: 67 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.603277293162567
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.603277309571387
+time: 66 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.602373979746893
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.60237399609201
+time: 66 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.597666153263733
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.597666171726823
+time: 66 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.598929533929885
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.598929552221565
+time: 66 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.601746515357325
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.601746531616287
+time: 66 secs
+Bagging 1500 Mixture Tree Bayesian Network
+K value: 1500 | Baseline loglikelihood of datasets/nltcs.valid.data is -9.600763294354229
+K value: 1500 | loglikelihood of datasets/nltcs.valid.data is -9.600763313872298
+time: 66 secs
+Average Baseline logLikelihood for K=1500 is -9.600286540976562
+Average logLikelihood for K=1500 is -9.600286558696927
+Best K Value is 1500
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22:21 min
+[INFO] Finished at: 2018-04-24T14:55:33-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------

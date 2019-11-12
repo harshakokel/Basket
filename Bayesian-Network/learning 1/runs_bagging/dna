@@ -1,0 +1,96 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset dna.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/dna.valid.data is -126.48693054118334
+K value: 2 | loglikelihood of datasets/dna.valid.data is -126.48239451252441
+time: 1 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/dna.valid.data is -127.49606382685951
+K value: 2 | loglikelihood of datasets/dna.valid.data is -127.49560318304279
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/dna.valid.data is -127.06187462661408
+K value: 2 | loglikelihood of datasets/dna.valid.data is -127.06187516105201
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/dna.valid.data is -127.70701121390015
+K value: 2 | loglikelihood of datasets/dna.valid.data is -127.70547021216561
+time: 0 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/dna.valid.data is -127.4775109017167
+K value: 2 | loglikelihood of datasets/dna.valid.data is -127.47543477311343
+time: 0 secs
+Average Baseline logLikelihood for K=2 is -127.24587822205476
+Average logLikelihood for K=2 is -127.24415556837964
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.valid.data is -126.71788324357424
+K value: 5 | loglikelihood of datasets/dna.valid.data is -126.71747033168906
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.valid.data is -126.47411399784856
+K value: 5 | loglikelihood of datasets/dna.valid.data is -126.47350696607016
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.valid.data is -125.86287323617917
+K value: 5 | loglikelihood of datasets/dna.valid.data is -125.86155199119094
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.valid.data is -126.37026259414358
+K value: 5 | loglikelihood of datasets/dna.valid.data is -126.36923196171371
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.valid.data is -126.53488314840108
+K value: 5 | loglikelihood of datasets/dna.valid.data is -126.5335973227606
+time: 2 secs
+Average Baseline logLikelihood for K=5 is -126.39200324402933
+Average logLikelihood for K=5 is -126.39107171468488
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/dna.valid.data is -126.30307692863906
+K value: 10 | loglikelihood of datasets/dna.valid.data is -126.30246878494627
+time: 4 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/dna.valid.data is -126.38183678232946
+K value: 10 | loglikelihood of datasets/dna.valid.data is -126.38155385545662
+time: 4 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/dna.valid.data is -126.36857119298557
+K value: 10 | loglikelihood of datasets/dna.valid.data is -126.3680148592035
+time: 4 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/dna.valid.data is -126.58020558154028
+K value: 10 | loglikelihood of datasets/dna.valid.data is -126.57987605825627
+time: 4 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/dna.valid.data is -126.34771554766316
+K value: 10 | loglikelihood of datasets/dna.valid.data is -126.34706457044194
+time: 4 secs
+Average Baseline logLikelihood for K=10 is -126.39628120663151
+Average logLikelihood for K=10 is -126.39579562566091
+Threshold found at 5, breaking the loop
+Best K Value is 5
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 36.487 s
+[INFO] Finished at: 2018-04-24T18:00:58-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------

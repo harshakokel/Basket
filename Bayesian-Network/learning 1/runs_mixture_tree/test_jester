@@ -1,0 +1,56 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+converged after 15 iterations
+K value: 20 | datasets/jester.test.data : -76.70146817930369
+time: 186
+converged after 21 iterations
+K value: 20 | datasets/jester.test.data : -76.8568119589958
+time: 262
+converged after 17 iterations
+K value: 20 | datasets/jester.test.data : -76.76551999360282
+time: 213
+converged after 16 iterations
+K value: 20 | datasets/jester.test.data : -76.67389028354198
+time: 198
+converged after 21 iterations
+K value: 20 | datasets/jester.test.data : -76.73596476783997
+time: 259
+converged after 17 iterations
+K value: 20 | datasets/jester.test.data : -76.62380633404038
+time: 210
+converged after 15 iterations
+K value: 20 | datasets/jester.test.data : -76.7288383593503
+time: 195
+converged after 16 iterations
+K value: 20 | datasets/jester.test.data : -76.71249342919079
+time: 199
+converged after 15 iterations
+K value: 20 | datasets/jester.test.data : -76.79232835793134
+time: 188
+ Average logLikelihood for K=20 is -76.72924057494347
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:44 h
+[INFO] Finished at: 2018-04-24T04:43:45-05:00
+[INFO] Final Memory: 7M/54M
+[INFO] ------------------------------------------------------------------------

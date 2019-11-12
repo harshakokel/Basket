@@ -1,0 +1,128 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset jester.ts.data ...
+converged after 9 iterations
+K value: 2 | datasets/jester.valid.data : -79.99710203224043
+time: 15
+converged after 12 iterations
+K value: 2 | datasets/jester.valid.data : -79.98918441985104
+time: 22
+converged after 4 iterations
+K value: 2 | datasets/jester.valid.data : -81.81715157008338
+time: 6
+converged after 19 iterations
+K value: 2 | datasets/jester.valid.data : -79.90429861865321
+time: 29
+converged after 13 iterations
+K value: 2 | datasets/jester.valid.data : -79.79605469813647
+time: 25
+ Average logLikelihood for K=2 is -80.3007582677929
+converged after 22 iterations
+K value: 5 | datasets/jester.valid.data : -77.80060749391416
+time: 96
+converged after 21 iterations
+K value: 5 | datasets/jester.valid.data : -77.78658980601203
+time: 93
+converged after 19 iterations
+K value: 5 | datasets/jester.valid.data : -77.90318632156286
+time: 85
+converged after 22 iterations
+K value: 5 | datasets/jester.valid.data : -77.86709119636292
+time: 99
+converged after 28 iterations
+K value: 5 | datasets/jester.valid.data : -77.79952448002796
+time: 113
+ Average logLikelihood for K=5 is -77.83139985957598
+converged after 31 iterations
+K value: 10 | datasets/jester.valid.data : -77.25664396819627
+time: 255
+converged after 24 iterations
+K value: 10 | datasets/jester.valid.data : -77.11136636201712
+time: 196
+converged after 21 iterations
+K value: 10 | datasets/jester.valid.data : -77.34588362186231
+time: 167
+converged after 20 iterations
+K value: 10 | datasets/jester.valid.data : -77.12365617553394
+time: 160
+converged after 19 iterations
+K value: 10 | datasets/jester.valid.data : -77.19716154018943
+time: 154
+ Average logLikelihood for K=10 is -77.20694233355981
+converged after 23 iterations
+K value: 15 | datasets/jester.valid.data : -77.13335490880931
+time: 268
+converged after 22 iterations
+K value: 15 | datasets/jester.valid.data : -76.98314300243062
+time: 259
+converged after 18 iterations
+K value: 15 | datasets/jester.valid.data : -77.17728349991904
+time: 209
+converged after 25 iterations
+K value: 15 | datasets/jester.valid.data : -76.97900510798594
+time: 292
+converged after 18 iterations
+K value: 15 | datasets/jester.valid.data : -77.14562011187847
+time: 209
+ Average logLikelihood for K=15 is -77.08368132620468
+converged after 19 iterations
+K value: 20 | datasets/jester.valid.data : -76.99552038737467
+time: 296
+converged after 19 iterations
+K value: 20 | datasets/jester.valid.data : -77.1075107777874
+time: 293
+converged after 15 iterations
+K value: 20 | datasets/jester.valid.data : -77.09513330393213
+time: 232
+converged after 16 iterations
+K value: 20 | datasets/jester.valid.data : -77.0803612309323
+time: 251
+converged after 18 iterations
+K value: 20 | datasets/jester.valid.data : -77.1090998219623
+time: 277
+ Average logLikelihood for K=20 is -77.07752510439775
+converged after 21 iterations
+K value: 25 | datasets/jester.valid.data : -77.0540195581873
+time: 399
+converged after 12 iterations
+K value: 25 | datasets/jester.valid.data : -77.22246658141923
+time: 230
+converged after 15 iterations
+K value: 25 | datasets/jester.valid.data : -77.25506370175648
+time: 314
+converged after 14 iterations
+K value: 25 | datasets/jester.valid.data : -77.23139874939163
+time: 301
+converged after 14 iterations
+K value: 25 | datasets/jester.valid.data : -77.15476474527452
+time: 292
+ Average logLikelihood for K=25 is -77.18354266720584
+Threshold found at: 25
+ Best BN is 20
+K value: 20 | jester.test.data : -76.75297604439167
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:34 h
+[INFO] Finished at: 2018-04-23T16:17:53-05:00
+[INFO] Final Memory: 8M/40M
+[INFO] ------------------------------------------------------------------------

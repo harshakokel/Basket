@@ -1,0 +1,74 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset dna.ts.data ...
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/dna.valid.data is -126.16640816790017
+K value: 20 | loglikelihood of datasets/dna.valid.data is -126.16613110561693
+time: 8 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/dna.valid.data is -126.56955705870968
+K value: 20 | loglikelihood of datasets/dna.valid.data is -126.56939366743072
+time: 8 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/dna.valid.data is -126.19872042698309
+K value: 20 | loglikelihood of datasets/dna.valid.data is -126.19844612461195
+time: 8 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/dna.valid.data is -126.31776344881699
+K value: 20 | loglikelihood of datasets/dna.valid.data is -126.31761747852181
+time: 8 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/dna.valid.data is -126.32687438424922
+K value: 20 | loglikelihood of datasets/dna.valid.data is -126.32665338273686
+time: 8 secs
+Average Baseline logLikelihood for K=20 is -126.31586469733183
+Average logLikelihood for K=20 is -126.31564835178365
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/dna.valid.data is -126.49729343487822
+K value: 50 | loglikelihood of datasets/dna.valid.data is -126.49722266432782
+time: 21 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/dna.valid.data is -126.27221343696446
+K value: 50 | loglikelihood of datasets/dna.valid.data is -126.27208121287408
+time: 21 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/dna.valid.data is -126.5268605542005
+K value: 50 | loglikelihood of datasets/dna.valid.data is -126.5267952592107
+time: 21 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/dna.valid.data is -126.33217206420184
+K value: 50 | loglikelihood of datasets/dna.valid.data is -126.33207319098449
+time: 21 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/dna.valid.data is -126.34958140151709
+K value: 50 | loglikelihood of datasets/dna.valid.data is -126.34952447331725
+time: 21 secs
+Average Baseline logLikelihood for K=50 is -126.3956241783524
+Average logLikelihood for K=50 is -126.39553936014288
+Threshold found at 20, breaking the loop
+Best K Value is 20
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:29 min
+[INFO] Finished at: 2018-04-24T18:11:50-05:00
+[INFO] Final Memory: 8M/40M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,194 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset dna.ts.data ...
+2 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -122.7507670793724
+time: 11 secs
+2 Mixture Tree Bayesian Network
+converged after 10 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -122.92255979044883
+time: 8 secs
+2 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -125.01743738689272
+time: 12 secs
+2 Mixture Tree Bayesian Network
+converged after 3 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -126.37621291383364
+time: 3 secs
+2 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -122.91371419512292
+time: 11 secs
+2 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -124.44162364107623
+time: 76 secs
+2 Mixture Tree Bayesian Network
+converged after 11 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -124.24072665362063
+time: 9 secs
+2 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -124.5361223930382
+time: 12 secs
+2 Mixture Tree Bayesian Network
+converged after 8 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -125.12049501739438
+time: 7 secs
+2 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -124.15533340572055
+time: 15 secs
+Average logLikelihood for K=2 is -124.24749924765206
+4 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -123.56842221730102
+time: 35 secs
+4 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -123.74223764939143
+time: 38 secs
+4 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -125.33717977857097
+time: 55 secs
+4 Mixture Tree Bayesian Network
+converged after 40 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.6621095658069
+time: 64 secs
+4 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -124.30499033435795
+time: 32 secs
+4 Mixture Tree Bayesian Network
+converged after 41 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -123.22413822118878
+time: 66 secs
+4 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.89225769174837
+time: 28 secs
+4 Mixture Tree Bayesian Network
+converged after 49 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -124.64837069828314
+time: 78 secs
+4 Mixture Tree Bayesian Network
+converged after 11 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.76723209088038
+time: 18 secs
+4 Mixture Tree Bayesian Network
+converged after 50 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -124.8245887300248
+time: 80 secs
+Average logLikelihood for K=4 is -123.79715269775537
+5 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.23273347114285
+time: 194 secs
+5 Mixture Tree Bayesian Network
+converged after 7 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.68546710031184
+time: 13 secs
+5 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.79426624337597
+time: 193 secs
+5 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -120.56185048754402
+time: 58 secs
+5 Mixture Tree Bayesian Network
+converged after 54 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -123.1672741247688
+time: 105 secs
+5 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.76970098213046
+time: 52 secs
+5 Mixture Tree Bayesian Network
+converged after 97 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -123.74277332831156
+time: 192 secs
+5 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.4347621960749
+time: 37 secs
+5 Mixture Tree Bayesian Network
+converged after 86 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.97835719173446
+time: 167 secs
+5 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.93623969811162
+time: 206 secs
+Average logLikelihood for K=5 is -122.63034248235064
+7 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -123.63951513064922
+time: 62 secs
+7 Mixture Tree Bayesian Network
+converged after 42 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -124.12193183315615
+time: 116 secs
+7 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -124.53009529136214
+time: 279 secs
+7 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -121.76809747605768
+time: 99 secs
+7 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -122.07802494992127
+time: 285 secs
+7 Mixture Tree Bayesian Network
+converged after 68 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -123.93297417034063
+time: 192 secs
+7 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -121.89617960029781
+time: 71 secs
+7 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -122.41753167798237
+time: 292 secs
+7 Mixture Tree Bayesian Network
+converged after 44 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -122.19577153681763
+time: 124 secs
+7 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 7 | loglikelihood of datasets/dna.valid.data is -122.74338569196439
+time: 283 secs
+Average logLikelihood for K=7 is -122.93235073585493
+Threshold found at: 5, breaking the loop
+Best K Value is 5
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:01 h
+[INFO] Finished at: 2018-04-26T12:25:44-05:00
+[INFO] Final Memory: 8M/34M
+[INFO] ------------------------------------------------------------------------

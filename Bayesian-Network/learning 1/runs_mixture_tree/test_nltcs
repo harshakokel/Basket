@@ -1,0 +1,34 @@
+Running dataset nltcs.ts.data ...
+converged after 48 iterations
+K value: 30 | datasets/nltcs.test.data : -8.669100206125938
+time: 128
+converged after 100 iterations
+K value: 30 | datasets/nltcs.test.data : -8.673866242436226
+time: 252
+converged after 64 iterations
+K value: 30 | datasets/nltcs.test.data : -8.673087840857303
+time: 168
+converged after 42 iterations
+K value: 30 | datasets/nltcs.test.data : -8.672355903231162
+time: 108
+converged after 64 iterations
+K value: 30 | datasets/nltcs.test.data : -8.66918159589772
+time: 157
+converged after 81 iterations
+K value: 30 | datasets/nltcs.test.data : -8.665568119480692
+time: 197
+converged after 43 iterations
+K value: 30 | datasets/nltcs.test.data : -8.66982167817331
+time: 114
+converged after 78 iterations
+K value: 30 | datasets/nltcs.test.data : -8.659076489497425
+time: 198
+converged after 100 iterations
+K value: 30 | datasets/nltcs.test.data : -8.670826137334494
+time: 243
+converged after 100 iterations
+K value: 30 | datasets/nltcs.test.data : -8.676687734248635
+time: 250
+ Average logLikelihood for K=30 is -8.66995719472829
+ Best BN is 30
+time: 0

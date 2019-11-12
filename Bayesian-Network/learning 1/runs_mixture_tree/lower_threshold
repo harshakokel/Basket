@@ -1,0 +1,763 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset accidents.ts.data ...
+2 Mixture Tree Bayesian Network
+converged after 10 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.98487970884491
+time: 21 secs
+2 Mixture Tree Bayesian Network
+converged after 10 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -46.000174004404116
+time: 19 secs
+2 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.97384114383548
+time: 33 secs
+2 Mixture Tree Bayesian Network
+converged after 1 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -47.41484941038716
+time: 6 secs
+2 Mixture Tree Bayesian Network
+converged after 36 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.63846763563133
+time: 117 secs
+2 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.90088522905108
+time: 113 secs
+2 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.931339934439876
+time: 59 secs
+2 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.649709567346946
+time: 98 secs
+2 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.64379846483819
+time: 78 secs
+2 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 2 | loglikelihood of datasets/accidents.valid.data is -45.62392803620484
+time: 70 secs
+Average logLikelihood for K=2 is -45.97618731349839
+4 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.116140969650345
+time: 119 secs
+4 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.214642970883475
+time: 131 secs
+4 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -43.96574968524246
+time: 175 secs
+4 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.053997594761604
+time: 120 secs
+4 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.038736936634166
+time: 149 secs
+4 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.441111282936184
+time: 167 secs
+4 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.23140918324327
+time: 121 secs
+4 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.06033598406416
+time: 195 secs
+4 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.04609655229977
+time: 117 secs
+4 Mixture Tree Bayesian Network
+converged after 39 iterations
+K value: 4 | loglikelihood of datasets/accidents.valid.data is -44.04226209074399
+time: 252 secs
+Average logLikelihood for K=4 is -44.12104832504595
+5 Mixture Tree Bayesian Network
+converged after 42 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.69518264697198
+time: 341 secs
+5 Mixture Tree Bayesian Network
+converged after 36 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.68526688337948
+time: 301 secs
+5 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.77218190348708
+time: 184 secs
+5 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.902723579136364
+time: 178 secs
+5 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.80549352265618
+time: 236 secs
+5 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.60726208874518
+time: 203 secs
+5 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.81437576487129
+time: 231 secs
+5 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.64540371967815
+time: 168 secs
+5 Mixture Tree Bayesian Network
+converged after 34 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.62937884051142
+time: 259 secs
+5 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 5 | loglikelihood of datasets/accidents.valid.data is -43.696659400366514
+time: 155 secs
+Average logLikelihood for K=5 is -43.72539283498036
+7 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.212244023830515
+time: 386 secs
+7 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.28833774048534
+time: 301 secs
+7 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.48974695967542
+time: 168 secs
+7 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.322577295524994
+time: 282 secs
+7 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.55323081464677
+time: 131 secs
+7 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.25547604925848
+time: 236 secs
+7 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.42674805000155
+time: 290 secs
+7 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.36708814551528
+time: 236 secs
+7 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.41091327682942
+time: 298 secs
+7 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 7 | loglikelihood of datasets/accidents.valid.data is -43.26969206281975
+time: 249 secs
+Average logLikelihood for K=7 is -43.35960544185876
+10 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.00540103735154
+time: 350 secs
+10 Mixture Tree Bayesian Network
+converged after 33 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -42.91657332365226
+time: 441 secs
+10 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.20927925130054
+time: 466 secs
+10 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -42.9521808597895
+time: 717 secs
+10 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.06947288131958
+time: 482 secs
+10 Mixture Tree Bayesian Network
+converged after 37 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.031428815869766
+time: 927 secs
+10 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.04251641126917
+time: 638 secs
+10 Mixture Tree Bayesian Network
+converged after 50 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.02579665582659
+time: 1291 secs
+10 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.133336497784406
+time: 551 secs
+10 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 10 | loglikelihood of datasets/accidents.valid.data is -43.07113970423355
+time: 563 secs
+Average logLikelihood for K=10 is -43.045712543839684
+12 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.84499919586258
+time: 812 secs
+12 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.856674088650536
+time: 614 secs
+12 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.76615990360051
+time: 727 secs
+12 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.893328400168194
+time: 1037 secs
+12 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.91356253346555
+time: 514 secs
+12 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.95070495515471
+time: 446 secs
+12 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -43.04729565341165
+time: 521 secs
+12 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.90914968289506
+time: 924 secs
+12 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.89907185204942
+time: 687 secs
+12 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 12 | loglikelihood of datasets/accidents.valid.data is -42.839612817401544
+time: 966 secs
+Average logLikelihood for K=12 is -42.892055908265974
+15 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.72331289882962
+time: 1090 secs
+15 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.69611647948834
+time: 625 secs
+15 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.63412179286837
+time: 582 secs
+15 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.56233970443248
+time: 912 secs
+15 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.75047059874955
+time: 766 secs
+15 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.712302493262044
+time: 524 secs
+15 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.70490304421129
+time: 442 secs
+15 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.777465897715544
+time: 516 secs
+15 Mixture Tree Bayesian Network
+converged after 36 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.69687259399761
+time: 658 secs
+15 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 15 | loglikelihood of datasets/accidents.valid.data is -42.69688480560864
+time: 483 secs
+Average logLikelihood for K=15 is -42.69547903091635
+17 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.68134734358978
+time: 458 secs
+17 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.68750312721523
+time: 436 secs
+17 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.765860262036945
+time: 365 secs
+17 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.67807477752896
+time: 600 secs
+17 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.624745484815136
+time: 613 secs
+17 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.717866103177805
+time: 360 secs
+17 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.53285827784782
+time: 768 secs
+17 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.64818593944401
+time: 616 secs
+17 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.47163549017425
+time: 478 secs
+17 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 17 | loglikelihood of datasets/accidents.valid.data is -42.50159965662307
+time: 568 secs
+Average logLikelihood for K=17 is -42.6309676462453
+20 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.42269610937186
+time: 867 secs
+20 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.53895985933806
+time: 776 secs
+20 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.574252929949246
+time: 729 secs
+20 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.62899651194628
+time: 453 secs
+20 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.6034823094014
+time: 407 secs
+20 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.47223306801082
+time: 685 secs
+20 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.618888958259056
+time: 725 secs
+20 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.35444368931234
+time: 702 secs
+20 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.64416962960988
+time: 614 secs
+20 Mixture Tree Bayesian Network
+converged after 40 iterations
+K value: 20 | loglikelihood of datasets/accidents.valid.data is -42.51315789476344
+time: 1097 secs
+Average logLikelihood for K=20 is -42.53712809599624
+Best K Value is 20
+Running dataset baudio.ts.data ...
+2 Mixture Tree Bayesian Network
+converged after 11 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.36204298157839
+time: 44 secs
+2 Mixture Tree Bayesian Network
+converged after 8 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.356077885404474
+time: 35 secs
+2 Mixture Tree Bayesian Network
+converged after 12 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.356150543081995
+time: 45 secs
+2 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.843382257339734
+time: 47 secs
+2 Mixture Tree Bayesian Network
+converged after 8 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -61.079437308924035
+time: 33 secs
+2 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.34248222070839
+time: 55 secs
+2 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.36099624795154
+time: 50 secs
+2 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.89130559722101
+time: 56 secs
+2 Mixture Tree Bayesian Network
+converged after 7 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.32983619595369
+time: 24 secs
+2 Mixture Tree Bayesian Network
+converged after 10 iterations
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -60.378917187122234
+time: 38 secs
+Average logLikelihood for K=2 is -60.53006284252855
+4 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.91412686278974
+time: 262 secs
+4 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.856864691656504
+time: 161 secs
+4 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.88478900492373
+time: 217 secs
+4 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.8396255381138
+time: 128 secs
+4 Mixture Tree Bayesian Network
+converged after 41 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.88460372345676
+time: 316 secs
+4 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.85339790128699
+time: 133 secs
+4 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.84308632370911
+time: 211 secs
+4 Mixture Tree Bayesian Network
+converged after 33 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.83821420805078
+time: 249 secs
+4 Mixture Tree Bayesian Network
+converged after 45 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.89220747256957
+time: 338 secs
+4 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 4 | loglikelihood of datasets/baudio.valid.data is -58.85427554735085
+time: 167 secs
+Average logLikelihood for K=4 is -58.86611912739079
+5 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.56682750751479
+time: 241 secs
+5 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.651719551956575
+time: 187 secs
+5 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.57187023952195
+time: 289 secs
+5 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.54623707060139
+time: 336 secs
+5 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.676299424222755
+time: 263 secs
+5 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.603466346967934
+time: 175 secs
+5 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.58834119664116
+time: 252 secs
+5 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.65538369798767
+time: 270 secs
+5 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.535136122561575
+time: 184 secs
+5 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -58.58702356270883
+time: 195 secs
+Average logLikelihood for K=5 is -58.598230472068465
+7 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.286925836063084
+time: 323 secs
+7 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.24173868465735
+time: 371 secs
+7 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.2504715316322
+time: 306 secs
+7 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.25898091904356
+time: 296 secs
+7 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.155127998988945
+time: 281 secs
+7 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.205270081341666
+time: 336 secs
+7 Mixture Tree Bayesian Network
+converged after 36 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.261659537915534
+time: 567 secs
+7 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.186166289731105
+time: 354 secs
+7 Mixture Tree Bayesian Network
+converged after 54 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.303603650524174
+time: 886 secs
+7 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 7 | loglikelihood of datasets/baudio.valid.data is -58.2612880867244
+time: 243 secs
+Average logLikelihood for K=7 is -58.24112326166221
+10 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -58.060373071217185
+time: 484 secs
+10 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.965940924685704
+time: 531 secs
+10 Mixture Tree Bayesian Network
+converged after 41 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.893204684135846
+time: 780 secs
+10 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.80729290068172
+time: 537 secs
+10 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.878577089463164
+time: 576 secs
+10 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.9833856626753
+time: 400 secs
+10 Mixture Tree Bayesian Network
+converged after 33 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.90668050761902
+time: 643 secs
+10 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.91822076448645
+time: 352 secs
+10 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.93345694081373
+time: 599 secs
+10 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -57.939998995083755
+time: 522 secs
+Average logLikelihood for K=10 is -57.92871315408619
+12 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.74058724782581
+time: 512 secs
+12 Mixture Tree Bayesian Network
+converged after 39 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.885713091193296
+time: 916 secs
+12 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.76988522579079
+time: 647 secs
+12 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.73918503180324
+time: 491 secs
+12 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.79913840126923
+time: 409 secs
+12 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.800232551646076
+time: 481 secs
+12 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.86479756215254
+time: 417 secs
+12 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.886574934520176
+time: 537 secs
+12 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.77949825555875
+time: 512 secs
+12 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 12 | loglikelihood of datasets/baudio.valid.data is -57.80979598286344
+time: 557 secs
+Average logLikelihood for K=12 is -57.80754082846234
+15 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.7823663595325
+time: 419 secs
+15 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.70378126953933
+time: 849 secs
+15 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.7273163642056
+time: 606 secs
+15 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.68481181739749
+time: 567 secs
+15 Mixture Tree Bayesian Network
+converged after 32 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.648839675491416
+time: 819 secs
+15 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.69209179681694
+time: 622 secs
+15 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.55940895324988
+time: 1333 secs
+15 Mixture Tree Bayesian Network
+converged after 32 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.62953759955014
+time: 903 secs
+15 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.6483071759979
+time: 434 secs
+15 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 15 | loglikelihood of datasets/baudio.valid.data is -57.702953621474435
+time: 782 secs
+Average logLikelihood for K=15 is -57.67794146332557
+17 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.48738102728605
+time: 1129 secs
+17 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.659243179633535
+time: 693 secs
+17 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.56109861062228
+time: 616 secs
+17 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.6109650816618
+time: 648 secs
+17 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.63449788173533
+time: 863 secs
+17 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.543502671376515
+time: 646 secs
+17 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.788197596815245
+time: 470 secs
+17 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.55896023585774
+time: 717 secs
+17 Mixture Tree Bayesian Network
+converged after 31 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.66642590680145
+time: 1300 secs
+17 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 17 | loglikelihood of datasets/baudio.valid.data is -57.678344337220175
+time: 499 secs
+Average logLikelihood for K=17 is -57.61886165290101
+20 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.66833236567568
+time: 550 secs
+20 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.59500000208106
+time: 1065 secs
+20 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.57222165171135
+time: 595 secs
+20 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.630560301682664
+time: 692 secs
+20 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.73576934843613
+time: 625 secs
+20 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.666018150946
+time: 763 secs
+20 Mixture Tree Bayesian Network
+converged after 32 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.53633339946975
+time: 1204 secs
+20 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.55836762849103
+time: 985 secs
+20 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.710935911896215
+time: 869 secs
+20 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -57.57255748681024
+time: 1143 secs
+Average logLikelihood for K=20 is -57.62460962472001
+Threshold found at: 17, breaking the loop
+Best K Value is 17

@@ -1,0 +1,42 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset plants.ts.data ...
+converged after 20 iterations
+K value: 45 | datasets/plants.test.data : -18.63846775522371
+time: 502
+converged after 30 iterations
+K value: 45 | datasets/plants.test.data : -18.52112031213441
+time: 895
+converged after 27 iterations
+K value: 45 | datasets/plants.test.data : -18.565765850186153
+time: 996
+converged after 21 iterations
+K value: 45 | datasets/plants.test.data : -18.584969665366422
+time: 1408
+converged after 27 iterations
+K value: 45 | datasets/plants.test.data : -18.504619859370084
+time: 1724
+converged after 25 iterations
+K value: 45 | datasets/plants.test.data : -18.518685817120062
+time: 1498
+converged after 21 iterations
+K value: 45 | datasets/plants.test.data : -18.605455653427093
+time: 916

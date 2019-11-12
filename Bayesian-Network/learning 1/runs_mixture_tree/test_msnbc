@@ -1,0 +1,60 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset msnbc.ts.data ...
+converged after 47 iterations
+K value: 2 | datasets/msnbc.test.data : -9.308491658610784
+time: 73
+converged after 1 iterations
+K value: 2 | datasets/msnbc.test.data : -9.435405303321437
+time: 3
+converged after 35 iterations
+K value: 2 | datasets/msnbc.test.data : -9.308472555292699
+time: 64
+converged after 100 iterations
+K value: 2 | datasets/msnbc.test.data : -9.307545108838248
+time: 201
+converged after 1 iterations
+K value: 2 | datasets/msnbc.test.data : -9.43539690857559
+time: 3
+converged after 1 iterations
+K value: 2 | datasets/msnbc.test.data : -9.43538485573734
+time: 3
+converged after 1 iterations
+K value: 2 | datasets/msnbc.test.data : -9.435401112309483
+time: 3
+converged after 100 iterations
+K value: 2 | datasets/msnbc.test.data : -9.308509727133789
+time: 180
+converged after 100 iterations
+K value: 2 | datasets/msnbc.test.data : -9.30691942217911
+time: 214
+converged after 1 iterations
+K value: 2 | datasets/msnbc.test.data : -9.435428829717125
+time: 3
+ Average logLikelihood for K=2 is -9.371695548171562
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12:31 min
+[INFO] Finished at: 2018-04-24T10:59:19-05:00
+[INFO] Final Memory: 8M/40M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,208 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset bnetflix.ts.data ...
+converged after 19 iterations
+K value: 2 | datasets/bnetflix.valid.data : -85.29867309030831
+time: 82
+converged after 5 iterations
+K value: 2 | datasets/bnetflix.valid.data : -86.1217274089738
+time: 24
+converged after 30 iterations
+K value: 2 | datasets/bnetflix.valid.data : -85.16586950807421
+time: 145
+converged after 5 iterations
+K value: 2 | datasets/bnetflix.valid.data : -85.9629625407507
+time: 31
+converged after 7 iterations
+K value: 2 | datasets/bnetflix.valid.data : -85.36166571785482
+time: 43
+ Average logLikelihood for K=2 is -85.58217965319236
+converged after 25 iterations
+K value: 5 | datasets/bnetflix.valid.data : -83.40136118795277
+time: 395
+converged after 28 iterations
+K value: 5 | datasets/bnetflix.valid.data : -83.32070967165821
+time: 422
+converged after 13 iterations
+K value: 5 | datasets/bnetflix.valid.data : -83.5413580133749
+time: 196
+converged after 24 iterations
+K value: 5 | datasets/bnetflix.valid.data : -83.32614366348314
+time: 357
+converged after 13 iterations
+K value: 5 | datasets/bnetflix.valid.data : -83.53419164007755
+time: 183
+ Average logLikelihood for K=5 is -83.42475283530932
+converged after 19 iterations
+K value: 10 | datasets/bnetflix.valid.data : -82.41926095188109
+time: 556
+converged after 25 iterations
+K value: 10 | datasets/bnetflix.valid.data : -82.47465415059598
+time: 728
+converged after 20 iterations
+K value: 10 | datasets/bnetflix.valid.data : -82.48796711543777
+time: 581
+converged after 17 iterations
+K value: 10 | datasets/bnetflix.valid.data : -82.5409885476385
+time: 492
+converged after 17 iterations
+K value: 10 | datasets/bnetflix.valid.data : -82.38289895469333
+time: 496
+ Average logLikelihood for K=10 is -82.46115394404933
+converged after 18 iterations
+K value: 15 | datasets/bnetflix.valid.data : -82.10431044325588
+time: 832
+converged after 14 iterations
+K value: 15 | datasets/bnetflix.valid.data : -82.21426693658472
+time: 601
+converged after 16 iterations
+K value: 15 | datasets/bnetflix.valid.data : -82.0104911402273
+time: 573
+converged after 16 iterations
+K value: 15 | datasets/bnetflix.valid.data : -82.12833616506154
+time: 573
+converged after 19 iterations
+K value: 15 | datasets/bnetflix.valid.data : -82.18745312008342
+time: 772
+ Average logLikelihood for K=15 is -82.12897156104256
+converged after 17 iterations
+K value: 20 | datasets/bnetflix.valid.data : -81.97144461644979
+time: 1114
+converged after 14 iterations
+K value: 20 | datasets/bnetflix.valid.data : -82.04780616288932
+time: 744
+converged after 16 iterations
+K value: 20 | datasets/bnetflix.valid.data : -81.92167590870594
+time: 1001
+converged after 16 iterations
+K value: 20 | datasets/bnetflix.valid.data : -81.94337128533424
+time: 874
+converged after 14 iterations
+K value: 20 | datasets/bnetflix.valid.data : -82.01885987249129
+time: 924
+ Average logLikelihood for K=20 is -81.98063156917411
+converged after 14 iterations
+K value: 25 | datasets/bnetflix.valid.data : -81.93021511240828
+time: 1010
+converged after 14 iterations
+K value: 25 | datasets/bnetflix.valid.data : -81.93401984164457
+time: 1138
+converged after 16 iterations
+K value: 25 | datasets/bnetflix.valid.data : -81.84976775236248
+time: 1211
+converged after 16 iterations
+K value: 25 | datasets/bnetflix.valid.data : -81.82929202754252
+time: 734
+converged after 16 iterations
+K value: 25 | datasets/bnetflix.valid.data : -81.89860845398836
+time: 766
+ Average logLikelihood for K=25 is -81.88838063758924
+converged after 14 iterations
+K value: 30 | datasets/bnetflix.valid.data : -81.88444223750079
+time: 992
+converged after 15 iterations
+K value: 30 | datasets/bnetflix.valid.data : -81.84434560021676
+time: 884
+converged after 13 iterations
+K value: 30 | datasets/bnetflix.valid.data : -81.90622381412649
+time: 671
+converged after 18 iterations
+K value: 30 | datasets/bnetflix.valid.data : -81.77631676285708
+time: 920
+converged after 14 iterations
+K value: 30 | datasets/bnetflix.valid.data : -81.8296217147042
+time: 751
+ Average logLikelihood for K=30 is -81.84819002588107
+ Best BN is 30
+K value: 30 | bnetflix.test.data : -81.92325143525228
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 06:03 h
+[INFO] Finished at: 2018-04-23T20:44:17-05:00
+[INFO] Final Memory: 7M/40M
+[INFO] ------------------------------------------------------------------------
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset bnetflix.ts.data ...
+converged after 14 iterations
+K value: 35 | datasets/bnetflix.valid.data : -81.74237313694422
+time: 608
+converged after 13 iterations
+K value: 35 | datasets/bnetflix.valid.data : -81.80349386277342
+time: 582
+converged after 12 iterations
+K value: 35 | datasets/bnetflix.valid.data : -81.78224877774606
+time: 620
+converged after 12 iterations
+K value: 35 | datasets/bnetflix.valid.data : -81.77392349618503
+time: 710
+converged after 14 iterations
+K value: 35 | datasets/bnetflix.valid.data : -81.76184663526986
+time: 712
+ Average logLikelihood for K=35 is -81.77277718178372
+converged after 13 iterations
+K value: 40 | datasets/bnetflix.valid.data : -81.97744844430193
+time: 1239
+converged after 15 iterations
+K value: 40 | datasets/bnetflix.valid.data : -81.83091407097908
+time: 1078
+converged after 14 iterations
+K value: 40 | datasets/bnetflix.valid.data : -81.7914380296742
+time: 1001
+converged after 13 iterations
+K value: 40 | datasets/bnetflix.valid.data : -81.87309126442479
+time: 939
+converged after 12 iterations
+K value: 40 | datasets/bnetflix.valid.data : -81.78014040402033
+time: 899
+ Average logLikelihood for K=40 is -81.85060644268006
+Threshold found at: 40
+ Best BN is 35
+K value: 35 | bnetflix.test.data : -81.8668510307549
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:19 h
+[INFO] Finished at: 2018-04-24T00:08:20-05:00
+[INFO] Final Memory: 7M/48M
+[INFO] ------------------------------------------------------------------------

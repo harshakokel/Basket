@@ -1,0 +1,34 @@
+Running dataset bnetflix.ts.data ...
+converged after 12 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.97122875354646
+time: 1347
+converged after 12 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.88359439440059
+time: 1273
+converged after 13 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.9317820944667
+time: 1356
+converged after 14 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.92966481939689
+time: 1474
+converged after 11 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.9251208716804
+time: 1163
+converged after 17 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.83879938454072
+time: 1826
+converged after 17 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.84186043812066
+time: 1816
+converged after 13 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.86889726652352
+time: 1392
+converged after 12 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.93552415153167
+time: 1257
+converged after 17 iterations
+K value: 35 | datasets/bnetflix.test.data : -81.96099823175597
+time: 1764
+ Average logLikelihood for K=35 is -81.90874704059635
+ Best BN is 35
+time: 0

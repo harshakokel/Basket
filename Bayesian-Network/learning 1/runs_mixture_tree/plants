@@ -1,0 +1,241 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset plants.ts.data ...
+converged after 9 iterations
+K value: 2 | datasets/plants.valid.data : -22.109780201523666
+time: 27
+converged after 11 iterations
+K value: 2 | datasets/plants.valid.data : -22.21077077196619
+time: 28
+converged after 8 iterations
+K value: 2 | datasets/plants.valid.data : -22.24430459758834
+time: 30
+converged after 20 iterations
+K value: 2 | datasets/plants.valid.data : -22.049228713534333
+time: 56
+converged after 18 iterations
+K value: 2 | datasets/plants.valid.data : -22.053476093664745
+time: 55
+ Average logLikelihood for K=2 is -22.133512075655453
+converged after 33 iterations
+K value: 5 | datasets/plants.valid.data : -20.503884270781736
+time: 252
+converged after 17 iterations
+K value: 5 | datasets/plants.valid.data : -20.57224692974076
+time: 122
+converged after 26 iterations
+K value: 5 | datasets/plants.valid.data : -20.708726095179987
+time: 185
+converged after 23 iterations
+K value: 5 | datasets/plants.valid.data : -20.585128982613092
+time: 169
+converged after 37 iterations
+K value: 5 | datasets/plants.valid.data : -20.528981919139646
+time: 280
+ Average logLikelihood for K=5 is -20.579793639491044
+converged after 33 iterations
+K value: 10 | datasets/plants.valid.data : -19.561327473931964
+time: 503
+converged after 23 iterations
+K value: 10 | datasets/plants.valid.data : -19.599800401413045
+time: 333
+converged after 30 iterations
+K value: 10 | datasets/plants.valid.data : -19.539838347425434
+time: 440
+converged after 26 iterations
+K value: 10 | datasets/plants.valid.data : -19.65964723227976
+time: 382
+converged after 21 iterations
+K value: 10 | datasets/plants.valid.data : -19.648164346474463
+time: 307
+ Average logLikelihood for K=10 is -19.601755560304934
+converged after 33 iterations
+K value: 15 | datasets/plants.valid.data : -19.178549453383013
+time: 700
+converged after 40 iterations
+K value: 15 | datasets/plants.valid.data : -19.140586329610482
+time: 1073
+converged after 24 iterations
+K value: 15 | datasets/plants.valid.data : -19.226562595395553
+time: 604
+converged after 26 iterations
+K value: 15 | datasets/plants.valid.data : -19.21140611480134
+time: 602
+converged after 23 iterations
+K value: 15 | datasets/plants.valid.data : -19.25324409849104
+time: 546
+ Average logLikelihood for K=15 is -19.202069718336283
+converged after 24 iterations
+K value: 20 | datasets/plants.valid.data : -19.151696086877227
+time: 770
+converged after 27 iterations
+K value: 20 | datasets/plants.valid.data : -18.99541876844043
+time: 887
+converged after 25 iterations
+K value: 20 | datasets/plants.valid.data : -18.93671144955457
+time: 504
+converged after 29 iterations
+K value: 20 | datasets/plants.valid.data : -18.92681589304875
+time: 525
+converged after 25 iterations
+K value: 20 | datasets/plants.valid.data : -18.915483453227242
+time: 633
+ Average logLikelihood for K=20 is -18.985225130229644
+converged after 28 iterations
+K value: 25 | datasets/plants.valid.data : -18.75044214168568
+time: 773
+converged after 21 iterations
+K value: 25 | datasets/plants.valid.data : -18.864968878294714
+time: 501
+converged after 28 iterations
+K value: 25 | datasets/plants.valid.data : -18.78345824517012
+time: 848
+converged after 24 iterations
+K value: 25 | datasets/plants.valid.data : -18.779368202759503
+time: 768
+converged after 21 iterations
+K value: 25 | datasets/plants.valid.data : -18.82803536272234
+time: 475
+ Average logLikelihood for K=25 is -18.80125456612647
+converged after 19 iterations
+K value: 30 | datasets/plants.valid.data : -18.786568899475416
+time: 694
+converged after 24 iterations
+K value: 30 | datasets/plants.valid.data : -18.748076394935847
+time: 467
+converged after 28 iterations
+K value: 30 | datasets/plants.valid.data : -18.711073557494643
+time: 583
+converged after 23 iterations
+K value: 30 | datasets/plants.valid.data : -18.748323032950527
+time: 465
+converged after 24 iterations
+K value: 30 | datasets/plants.valid.data : -18.66259295325234
+time: 369
+ Average logLikelihood for K=30 is -18.731326967621754
+ Best BN is 30
+K value: 30 | plants.test.data : -18.6293159074528
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:26 h
+[INFO] Finished at: 2018-04-23T21:11:37-05:00
+[INFO] Final Memory: 7M/48M
+[INFO] ------------------------------------------------------------------------
+
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset plants.ts.data ...
+converged after 20 iterations
+K value: 35 | datasets/plants.valid.data : -18.72415509588294
+time: 569
+converged after 19 iterations
+K value: 35 | datasets/plants.valid.data : -18.685020402846085
+time: 553
+converged after 21 iterations
+K value: 35 | datasets/plants.valid.data : -18.65779171573468
+time: 569
+converged after 22 iterations
+K value: 35 | datasets/plants.valid.data : -18.69114359894608
+time: 642
+converged after 26 iterations
+K value: 35 | datasets/plants.valid.data : -18.55406843967381
+time: 754
+ Average logLikelihood for K=35 is -18.66243585061672
+converged after 25 iterations
+K value: 40 | datasets/plants.valid.data : -18.578534061004657
+time: 820
+converged after 25 iterations
+K value: 40 | datasets/plants.valid.data : -18.563749984051068
+time: 820
+converged after 28 iterations
+K value: 40 | datasets/plants.valid.data : -18.55540945001099
+time: 856
+converged after 21 iterations
+K value: 40 | datasets/plants.valid.data : -18.582577401383684
+time: 412
+converged after 28 iterations
+K value: 40 | datasets/plants.valid.data : -18.5620587213501
+time: 521
+ Average logLikelihood for K=40 is -18.5684659235601
+converged after 28 iterations
+K value: 45 | datasets/plants.valid.data : -18.57256735616503
+time: 688
+converged after 21 iterations
+K value: 45 | datasets/plants.valid.data : -18.527385702114096
+time: 575
+converged after 35 iterations
+K value: 45 | datasets/plants.valid.data : -18.51044786959922
+time: 1715
+converged after 20 iterations
+K value: 45 | datasets/plants.valid.data : -18.587813704841132
+time: 1065
+converged after 25 iterations
+K value: 45 | datasets/plants.valid.data : -18.5251438847804
+time: 1468
+ Average logLikelihood for K=45 is -18.544671703499976
+converged after 22 iterations
+K value: 50 | datasets/plants.valid.data : -18.59008759501264
+time: 1383
+converged after 18 iterations
+K value: 50 | datasets/plants.valid.data : -18.596854313399906
+time: 901
+converged after 27 iterations
+K value: 50 | datasets/plants.valid.data : -18.467275145706587
+time: 1443
+converged after 21 iterations
+K value: 50 | datasets/plants.valid.data : -18.51790127823014
+time: 1026
+converged after 28 iterations
+K value: 50 | datasets/plants.valid.data : -18.579517996464944
+time: 1428
+ Average logLikelihood for K=50 is -18.550327265762842
+Threshold found at: 50
+ Best BN is 45
+K value: 45 | plants.test.data : -18.488764423760056
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 05:03 h
+[INFO] Finished at: 2018-04-24T03:40:01-05:00
+[INFO] Final Memory: 7M/48M
+[INFO] ------------------------------------------------------------------------

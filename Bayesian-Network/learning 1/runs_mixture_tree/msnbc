@@ -1,0 +1,213 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset msnbc.ts.data ...
+converged after 1 iterations
+K value: 2 | datasets/msnbc.valid.data : -9.435259629480175
+time: 2
+converged after 1 iterations
+K value: 2 | datasets/msnbc.valid.data : -9.435331177661824
+time: 3
+converged after 1 iterations
+K value: 2 | datasets/msnbc.valid.data : -9.435265066534797
+time: 2
+converged after 1 iterations
+K value: 2 | datasets/msnbc.valid.data : -9.435256351956198
+time: 3
+converged after 100 iterations
+K value: 2 | datasets/msnbc.valid.data : -9.303129463125707
+time: 206
+ Average logLikelihood for K=2 is -9.40884833775174
+
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset msnbc.ts.data ...
+converged after 1 iterations
+K value: 5 | datasets/msnbc.valid.data : -9.431804649257764
+time: 5
+converged after 1 iterations
+K value: 5 | datasets/msnbc.valid.data : -9.43430389110131
+time: 4
+converged after 1 iterations
+K value: 5 | datasets/msnbc.valid.data : -9.431920914709627
+time: 4
+converged after 1 iterations
+K value: 5 | datasets/msnbc.valid.data : -9.435255272687407
+time: 6
+converged after 1 iterations
+K value: 5 | datasets/msnbc.valid.data : -9.433669282313582
+time: 8
+ Average logLikelihood for K=5 is -9.433390802013937
+converged after 1 iterations
+K value: 10 | datasets/msnbc.valid.data : -9.43333902735136
+time: 11
+converged after 1 iterations
+K value: 10 | datasets/msnbc.valid.data : -9.432313285074528
+time: 10
+converged after 1 iterations
+K value: 10 | datasets/msnbc.valid.data : -9.431923791829792
+time: 13
+converged after 1 iterations
+K value: 10 | datasets/msnbc.valid.data : -9.432060372289754
+time: 12
+converged after 1 iterations
+K value: 10 | datasets/msnbc.valid.data : -9.431878287971895
+time: 11
+ Average logLikelihood for K=10 is -9.432302952903466
+converged after 1 iterations
+K value: 15 | datasets/msnbc.valid.data : -9.431880116502505
+time: 16
+converged after 1 iterations
+K value: 15 | datasets/msnbc.valid.data : -9.43202495974062
+time: 17
+converged after 1 iterations
+K value: 15 | datasets/msnbc.valid.data : -9.431919908809444
+time: 17
+converged after 1 iterations
+K value: 15 | datasets/msnbc.valid.data : -9.431915874408022
+time: 18
+converged after 1 iterations
+K value: 15 | datasets/msnbc.valid.data : -9.431904066742039
+time: 13
+ Average logLikelihood for K=15 is -9.431928985240527
+Threshold found at: 15
+ Best BN is 15
+K value: 15 | msnbc.test.data : -9.431218156908132
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:53 min
+[INFO] Finished at: 2018-04-23T11:11:15-05:00
+[INFO] Final Memory: 8M/54M
+[INFO] ------------------------------------------------------------------------
+
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset msnbc.ts.data ...
+converged after 1 iterations
+K value: 20 | datasets/msnbc.valid.data : -9.432290889649439
+time: 17
+converged after 1 iterations
+K value: 20 | datasets/msnbc.valid.data : -9.432550934440755
+time: 16
+converged after 1 iterations
+K value: 20 | datasets/msnbc.valid.data : -9.432076270675568
+time: 19
+converged after 1 iterations
+K value: 20 | datasets/msnbc.valid.data : -9.43228632600647
+time: 18
+converged after 1 iterations
+K value: 20 | datasets/msnbc.valid.data : -9.431887218582107
+time: 16
+ Average logLikelihood for K=20 is -9.432218327870867
+converged after 1 iterations
+K value: 25 | datasets/msnbc.valid.data : -9.43240927672085
+time: 24
+converged after 1 iterations
+K value: 25 | datasets/msnbc.valid.data : -9.431922889528995
+time: 21
+converged after 1 iterations
+K value: 25 | datasets/msnbc.valid.data : -9.43193314159144
+time: 25
+converged after 1 iterations
+K value: 25 | datasets/msnbc.valid.data : -9.43232844785734
+time: 24
+converged after 1 iterations
+K value: 25 | datasets/msnbc.valid.data : -9.43197284588007
+time: 22
+ Average logLikelihood for K=25 is -9.43211332031574
+Threshold found at: 25
+ Best BN is 25
+K value: 25 | msnbc.test.data : -9.431297537044014
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:27 min
+[INFO] Finished at: 2018-04-23T22:07:10-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset msnbc.ts.data ...
+converged after 1 iterations
+K value: 30 | datasets/msnbc.valid.data : -9.431961834632117
+time: 27
+converged after 1 iterations
+K value: 30 | datasets/msnbc.valid.data : -9.432096959318397
+time: 23

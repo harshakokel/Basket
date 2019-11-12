@@ -1,0 +1,120 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset kdd.ts.data ...
+converged after 76 iterations
+K value: 2 | datasets/kdd.valid.data : -3.434452720085822
+time: 1388
+converged after 81 iterations
+K value: 2 | datasets/kdd.valid.data : -3.4384600498129374
+time: 1365
+converged after 84 iterations
+K value: 2 | datasets/kdd.valid.data : -3.472943603071076
+time: 1450
+converged after 99 iterations
+K value: 2 | datasets/kdd.valid.data : -3.446599508577088
+time: 1718
+converged after 45 iterations
+K value: 2 | datasets/kdd.valid.data : -3.468826910426753
+time: 809
+ Average logLikelihood for K=2 is -3.4522565583947356
+converged after 100 iterations
+K value: 5 | datasets/kdd.valid.data : -3.3814526060838643
+time: 4709
+converged after 100 iterations
+K value: 5 | datasets/kdd.valid.data : -3.3808554483334405
+time: 4732
+converged after 100 iterations
+K value: 5 | datasets/kdd.valid.data : -3.3883226561255984
+time: 4766
+converged after 100 iterations
+K value: 5 | datasets/kdd.valid.data : -3.3787382823960015
+time: 5244
+converged after 100 iterations
+K value: 5 | datasets/kdd.valid.data : -3.382084352803581
+time: 5335
+ Average logLikelihood for K=5 is -3.3822906691484973
+
+
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset kdd.ts.data ...
+converged after 1 iterations
+K value: 10 | datasets/kdd.valid.data : -3.611032883101734
+time: 75
+converged after 1 iterations
+K value: 10 | datasets/kdd.valid.data : -3.612329546837749
+time: 77
+converged after 1 iterations
+K value: 10 | datasets/kdd.valid.data : -3.610569381690226
+time: 89
+converged after 1 iterations
+K value: 10 | datasets/kdd.valid.data : -3.612107307177531
+time: 112
+converged after 9 iterations
+K value: 10 | datasets/kdd.valid.data : -3.3881587506608946
+time: 1174
+ Average logLikelihood for K=10 is -3.5668395738936267
+converged after 1 iterations
+K value: 15 | datasets/kdd.valid.data : -3.6108107764816464
+time: 182
+converged after 1 iterations
+K value: 15 | datasets/kdd.valid.data : -3.6116489077843617
+time: 182
+converged after 1 iterations
+K value: 15 | datasets/kdd.valid.data : -3.6111118164237856
+time: 184
+converged after 1 iterations
+K value: 15 | datasets/kdd.valid.data : -3.6082017547892824
+time: 186
+converged after 1 iterations
+K value: 15 | datasets/kdd.valid.data : -3.611610294409269
+time: 198
+ Average logLikelihood for K=15 is -3.610676709977669
+Threshold found at: 15
+ Best BN is 10
+K value: 10 | kdd.test.data : -3.086844357397638
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 41:06 min
+[INFO] Finished at: 2018-04-23T11:52:31-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------

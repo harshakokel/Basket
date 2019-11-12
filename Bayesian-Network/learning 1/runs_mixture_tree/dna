@@ -1,0 +1,82 @@
+Running dataset dna.ts.data ...
+converged after 100 iterations
+K value: 2 | datasets/dna.valid.data : -124.3563364978005
+time: 131
+converged after 35 iterations
+K value: 2 | datasets/dna.valid.data : -125.16708255379015
+time: 45
+converged after 26 iterations
+K value: 2 | datasets/dna.valid.data : -125.25235814553206
+time: 37
+converged after 41 iterations
+K value: 2 | datasets/dna.valid.data : -124.38398957247644
+time: 54
+converged after 22 iterations
+K value: 2 | datasets/dna.valid.data : -126.79762863103977
+time: 28
+ Average logLikelihood for K=2 is -125.19147908012778
+converged after 68 iterations
+K value: 5 | datasets/dna.valid.data : -123.07021367807148
+time: 225
+converged after 100 iterations
+K value: 5 | datasets/dna.valid.data : -121.69105501574774
+time: 315
+
+
+converged after 100 iterations
+K value: 5 | datasets/dna.valid.data : -123.55513971728942
+time: 319
+lconverged after 100 iterations
+K value: 5 | datasets/dna.valid.data : -122.97707623514547
+time: 313
+
+
+
+converged after 100 iterations
+K value: 5 | datasets/dna.valid.data : -121.17414479188656
+time: 290
+ Average logLikelihood for K=5 is -122.49352588762812
+
+
+
+
+Running dataset dna.ts.data ...
+converged after 51 iterations
+K value: 10 | datasets/dna.valid.data : -121.59912019650216
+time: 329
+converged after 40 iterations
+K value: 10 | datasets/dna.valid.data : -119.39534187012589
+time: 251
+converged after 72 iterations
+K value: 10 | datasets/dna.valid.data : -122.10248921925623
+time: 449
+converged after 38 iterations
+K value: 10 | datasets/dna.valid.data : -121.97883683541522
+time: 238
+converged after 50 iterations
+K value: 10 | datasets/dna.valid.data : -123.0403860912856
+time: 320
+ Average logLikelihood for K=10 is -121.62323484251701
+converged after 42 iterations
+K value: 15 | datasets/dna.valid.data : -120.16952565670776
+time: 393
+converged after 56 iterations
+K value: 15 | datasets/dna.valid.data : -123.14343819858179
+time: 523
+converged after 100 iterations
+K value: 15 | datasets/dna.valid.data : -123.47126347271278
+time: 923
+converged after 42 iterations
+K value: 15 | datasets/dna.valid.data : -121.7365279288982
+time: 391
+converged after 28 iterations
+K value: 15 | datasets/dna.valid.data : -124.16847833389518
+time: 260
+ Average logLikelihood for K=15 is -122.53784671815916
+Threshold found at: 15
+ Best BN is 10
+K value: 10 | dna.test.data : -122.0933036315059
+time: 0
+
+
+

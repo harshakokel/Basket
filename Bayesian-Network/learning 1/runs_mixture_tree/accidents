@@ -1,0 +1,169 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset accidents.ts.data ...
+converged after 26 iterations
+K value: 2 | datasets/accidents.valid.data : -46.0569865626225
+time: 50
+converged after 55 iterations
+K value: 2 | datasets/accidents.valid.data : -45.70446755333251
+time: 102
+converged after 44 iterations
+K value: 2 | datasets/accidents.valid.data : -45.62977982795566
+time: 85
+converged after 61 iterations
+K value: 2 | datasets/accidents.valid.data : -45.63568135235471
+time: 134
+converged after 42 iterations
+K value: 2 | datasets/accidents.valid.data : -45.62974392173685
+time: 96
+ Average logLikelihood for K=2 is -45.731331843600444
+converged after 100 iterations
+K value: 5 | datasets/accidents.valid.data : -43.803674434318594
+time: 589
+converged after 64 iterations
+K value: 5 | datasets/accidents.valid.data : -43.58883535988813
+time: 386
+converged after 73 iterations
+K value: 5 | datasets/accidents.valid.data : -43.723857221432674
+time: 441
+converged after 75 iterations
+K value: 5 | datasets/accidents.valid.data : -43.86848502144148
+time: 458
+converged after 100 iterations
+K value: 5 | datasets/accidents.valid.data : -43.79564078400895
+time: 603
+ Average logLikelihood for K=5 is -43.756098564217965
+converged after 100 iterations
+K value: 10 | datasets/accidents.valid.data : -42.9450375143041
+time: 1243
+converged after 100 iterations
+K value: 10 | datasets/accidents.valid.data : -43.096480080985295
+time: 1242
+converged after 70 iterations
+K value: 10 | datasets/accidents.valid.data : -42.913515883338285
+time: 856
+converged after 62 iterations
+K value: 10 | datasets/accidents.valid.data : -42.904420193857675
+time: 737
+converged after 95 iterations
+K value: 10 | datasets/accidents.valid.data : -43.01102276486296
+time: 1193
+ Average logLikelihood for K=10 is -42.974095287469666
+converged after 77 iterations
+K value: 15 | datasets/accidents.valid.data : -42.545125042195835
+time: 1327
+converged after 100 iterations
+K value: 15 | datasets/accidents.valid.data : -42.487189705029834
+time: 1759
+converged after 100 iterations
+K value: 15 | datasets/accidents.valid.data : -42.538170459526974
+time: 1688
+converged after 100 iterations
+K value: 15 | datasets/accidents.valid.data : -42.579972180571204
+time: 1830
+converged after 95 iterations
+K value: 15 | datasets/accidents.valid.data : -42.696467853674285
+time: 1730
+ Average logLikelihood for K=15 is -42.56938504819963
+converged after 100 iterations
+K value: 20 | datasets/accidents.valid.data : -42.4591819924722
+time: 2288
+converged after 100 iterations
+K value: 20 | datasets/accidents.valid.data : -42.44278220070179
+time: 2484
+converged after 100 iterations
+K value: 20 | datasets/accidents.valid.data : -42.338873685442884
+time: 2640
+converged after 100 iterations
+K value: 20 | datasets/accidents.valid.data : -42.40153923636191
+time: 2778
+converged after 100 iterations
+K value: 20 | datasets/accidents.valid.data : -42.3893745368587
+time: 2928
+ Average logLikelihood for K=20 is -42.406350330367495
+converged after 100 iterations
+K value: 25 | datasets/accidents.valid.data : -42.31996397495024
+time: 3545
+
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset accidents.ts.data ...
+converged after 22 iterations
+K value: 25 | datasets/accidents.valid.data : -42.49424313698804
+time: 839
+converged after 20 iterations
+K value: 25 | datasets/accidents.valid.data : -42.38411642835476
+time: 678
+converged after 17 iterations
+K value: 25 | datasets/accidents.valid.data : -42.58066639647412
+time: 617
+converged after 19 iterations
+K value: 25 | datasets/accidents.valid.data : -42.361875125920044
+time: 737
+converged after 20 iterations
+K value: 25 | datasets/accidents.valid.data : -42.54142436331286
+time: 623
+ Average logLikelihood for K=25 is -42.47246509020997
+converged after 27 iterations
+K value: 30 | datasets/accidents.valid.data : -42.49007409401554
+time: 1323
+converged after 16 iterations
+K value: 30 | datasets/accidents.valid.data : -42.46852401499128
+time: 672
+converged after 19 iterations
+K value: 30 | datasets/accidents.valid.data : -42.52693895561038
+time: 726
+converged after 19 iterations
+K value: 30 | datasets/accidents.valid.data : -42.449850094909266
+time: 725
+converged after 23 iterations
+K value: 30 | datasets/accidents.valid.data : -42.40968762452952
+time: 866
+ Average logLikelihood for K=30 is -42.46901495681119
+ Best BN is 30
+K value: 30 | accidents.test.data : -42.843162981707
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:10 h
+[INFO] Finished at: 2018-04-23T13:24:06-05:00
+[INFO] Final Memory: 7M/48M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,607 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset bnetflix.ts.data ...
+2 Mixture Tree Bayesian Network
+converged after 5 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.66735111929958
+time: 32 secs
+2 Mixture Tree Bayesian Network
+converged after 38 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.4148745965385
+time: 207 secs
+2 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.50489631692797
+time: 77 secs
+2 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.21676284628298
+time: 108 secs
+2 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.3176928022695
+time: 97 secs
+2 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.363503438326
+time: 147 secs
+2 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.5651888923418
+time: 125 secs
+2 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.25920012504304
+time: 73 secs
+2 Mixture Tree Bayesian Network
+converged after 7 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.46508738224588
+time: 41 secs
+2 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -85.24368467444424
+time: 111 secs
+Average logLikelihood for K=2 is -85.40182421937195
+4 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.63543570758316
+time: 192 secs
+4 Mixture Tree Bayesian Network
+converged after 33 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.70055447931362
+time: 367 secs
+4 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.70642568198919
+time: 173 secs
+4 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.70235370236992
+time: 304 secs
+4 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.82596178354531
+time: 254 secs
+4 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.57148312069513
+time: 171 secs
+4 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.65795626174851
+time: 284 secs
+4 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.74424861010702
+time: 188 secs
+4 Mixture Tree Bayesian Network
+converged after 26 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.8380882471602
+time: 288 secs
+4 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 4 | loglikelihood of datasets/bnetflix.valid.data is -83.61188856173939
+time: 177 secs
+Average logLikelihood for K=4 is -83.69943961562514
+5 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.24651399237325
+time: 405 secs
+5 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.52681280963937
+time: 305 secs
+5 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.50054640276342
+time: 436 secs
+5 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.46293101865444
+time: 244 secs
+5 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.44731349341461
+time: 441 secs
+5 Mixture Tree Bayesian Network
+converged after 33 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.56644001056755
+time: 473 secs
+5 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.26523920469987
+time: 267 secs
+5 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.37419685642902
+time: 325 secs
+5 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.50307957484631
+time: 290 secs
+5 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -83.35965330060007
+time: 461 secs
+Average logLikelihood for K=5 is -83.42527266639878
+7 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.88067356394612
+time: 350 secs
+7 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.91778105749785
+time: 401 secs
+7 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.95571288445737
+time: 389 secs
+7 Mixture Tree Bayesian Network
+converged after 27 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.85383534825846
+time: 531 secs
+7 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.79274640468125
+time: 468 secs
+7 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.84360330035705
+time: 419 secs
+7 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -83.02694844472144
+time: 337 secs
+7 Mixture Tree Bayesian Network
+converged after 30 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.83181216556787
+time: 631 secs
+7 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.99957427797283
+time: 442 secs
+7 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 7 | loglikelihood of datasets/bnetflix.valid.data is -82.86141749691477
+time: 418 secs
+Average logLikelihood for K=7 is -82.8964104944375
+10 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.4609964315086
+time: 582 secs
+10 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.39252515525139
+time: 533 secs
+10 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.45146922792179
+time: 453 secs
+10 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.46515826943853
+time: 593 secs
+10 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.31771746066838
+time: 489 secs
+10 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.45592575257217
+time: 500 secs
+10 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.42790335719312
+time: 602 secs
+10 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.53750397627576
+time: 467 secs
+10 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.49611425276214
+time: 503 secs
+10 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -82.51307274763326
+time: 569 secs
+Average logLikelihood for K=10 is -82.45183866312252
+12 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.33208958691431
+time: 684 secs
+12 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.35495183557454
+time: 536 secs
+12 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.31724213329916
+time: 542 secs
+12 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.25082186155285
+time: 534 secs
+12 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.38147463996569
+time: 499 secs
+12 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.3704096790051
+time: 552 secs
+12 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.40621299653787
+time: 622 secs
+12 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.2896129268328
+time: 620 secs
+12 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.1592555034213
+time: 946 secs
+12 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 12 | loglikelihood of datasets/bnetflix.valid.data is -82.26713636778487
+time: 622 secs
+Average logLikelihood for K=12 is -82.31292075308883
+15 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.05234196146647
+time: 824 secs
+15 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.10465847221138
+time: 812 secs
+15 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.04894309375953
+time: 746 secs
+15 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.04914657207438
+time: 862 secs
+15 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.06067441511264
+time: 829 secs
+15 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.10754250608552
+time: 769 secs
+15 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.12784287860525
+time: 722 secs
+15 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.00825161586825
+time: 596 secs
+15 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.09999423090997
+time: 994 secs
+15 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 15 | loglikelihood of datasets/bnetflix.valid.data is -82.0204326760987
+time: 953 secs
+Average logLikelihood for K=15 is -82.06798284221921
+17 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -82.0381773212533
+time: 1031 secs
+17 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -81.958195385267
+time: 752 secs
+17 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -82.06675455100334
+time: 781 secs
+17 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -81.93874658755695
+time: 1054 secs
+17 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -82.04754035429305
+time: 801 secs
+17 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -82.08859305691485
+time: 757 secs
+17 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -81.98268078460154
+time: 832 secs
+17 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -82.04497731716607
+time: 923 secs
+17 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -82.01751775750093
+time: 829 secs
+17 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 17 | loglikelihood of datasets/bnetflix.valid.data is -81.93545716477118
+time: 726 secs
+Average logLikelihood for K=17 is -82.01186402803282
+20 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -82.00070105616275
+time: 1042 secs
+20 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.82185334557616
+time: 1220 secs
+20 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.9736811281859
+time: 849 secs
+20 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.91684775278534
+time: 1197 secs
+20 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.85996771803309
+time: 759 secs
+20 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -82.06908481264799
+time: 1002 secs
+20 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.88149795032672
+time: 812 secs
+20 Mixture Tree Bayesian Network
+converged after 20 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.97720285876962
+time: 1089 secs
+20 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.94779354392473
+time: 855 secs
+20 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -81.89139264574911
+time: 1025 secs
+Average logLikelihood for K=20 is -81.93400228121614
+25 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.91127212793633
+time: 896 secs
+25 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.83212539454178
+time: 1261 secs
+25 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.8640656434554
+time: 1078 secs
+25 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.86002233749439
+time: 1166 secs
+25 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.76790945111838
+time: 1403 secs
+25 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.88375255275595
+time: 1280 secs
+25 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.81249369561229
+time: 1078 secs
+25 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.82880212916436
+time: 1410 secs
+25 Mixture Tree Bayesian Network
+converged after 15 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.78956771107846
+time: 1112 secs
+25 Mixture Tree Bayesian Network
+converged after 19 iterations
+K value: 25 | loglikelihood of datasets/bnetflix.valid.data is -81.87156206525282
+time: 1140 secs
+Average logLikelihood for K=25 is -81.84215731084103
+30 Mixture Tree Bayesian Network
+converged after 18 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.88248586893329
+time: 1597 secs
+30 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.84430143169912
+time: 1193 secs
+30 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.77628340339777
+time: 1296 secs
+30 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.81420176977316
+time: 1239 secs
+30 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.88137055936863
+time: 945 secs
+30 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.77515226512234
+time: 1168 secs
+30 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.88347621896435
+time: 1071 secs
+30 Mixture Tree Bayesian Network
+converged after 14 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.85857380142915
+time: 991 secs
+30 Mixture Tree Bayesian Network
+converged after 13 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.86820548144394
+time: 1263 secs
+30 Mixture Tree Bayesian Network
+converged after 16 iterations
+K value: 30 | loglikelihood of datasets/bnetflix.valid.data is -81.86309263608908
+time: 1330 secs
+Average logLikelihood for K=30 is -81.84471434362209
+Threshold found at: 25, breaking the loop
+Best K Value is 25
+Running dataset dna.ts.data ...
+2 Mixture Tree Bayesian Network
+converged after 4 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -126.63287405404265
+time: 4 secs
+2 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -125.20528039871064
+time: 17 secs
+2 Mixture Tree Bayesian Network
+converged after 28 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -124.66445122935389
+time: 23 secs
+2 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -125.228868679772
+time: 14 secs
+2 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -124.32095765359583
+time: 17 secs
+2 Mixture Tree Bayesian Network
+converged after 8 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -122.1185957956507
+time: 8 secs
+2 Mixture Tree Bayesian Network
+converged after 17 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -122.34748158137766
+time: 14 secs
+2 Mixture Tree Bayesian Network
+converged after 7 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -123.60245217688869
+time: 5 secs
+2 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -123.59193791394456
+time: 76 secs
+2 Mixture Tree Bayesian Network
+converged after 8 iterations
+K value: 2 | loglikelihood of datasets/dna.valid.data is -122.86641616877107
+time: 7 secs
+Average logLikelihood for K=2 is -124.0579315652108
+4 Mixture Tree Bayesian Network
+converged after 41 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -124.11008911706026
+time: 65 secs
+4 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.86869807566465
+time: 34 secs
+4 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.73857316871232
+time: 157 secs
+4 Mixture Tree Bayesian Network
+converged after 24 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -123.26038431091526
+time: 37 secs
+4 Mixture Tree Bayesian Network
+converged after 23 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.55351045446778
+time: 35 secs
+4 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -123.24320039982008
+time: 32 secs
+4 Mixture Tree Bayesian Network
+converged after 36 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.41388653840137
+time: 56 secs
+4 Mixture Tree Bayesian Network
+converged after 29 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.70197449709661
+time: 46 secs
+4 Mixture Tree Bayesian Network
+converged after 41 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -123.71747223226077
+time: 64 secs
+4 Mixture Tree Bayesian Network
+converged after 35 iterations
+K value: 4 | loglikelihood of datasets/dna.valid.data is -122.33382559395609
+time: 55 secs
+Average logLikelihood for K=4 is -122.99416143883555
+5 Mixture Tree Bayesian Network
+converged after 21 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -125.3414592912379
+time: 41 secs
+5 Mixture Tree Bayesian Network
+converged after 44 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.92270580592638
+time: 85 secs
+5 Mixture Tree Bayesian Network
+converged after 22 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -124.39093386549666
+time: 44 secs
+5 Mixture Tree Bayesian Network
+converged after 82 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -124.01445392020929
+time: 158 secs
+5 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -121.12176134273646
+time: 196 secs
+5 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -125.24443236890687
+time: 199 secs
+5 Mixture Tree Bayesian Network
+converged after 100 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -121.51316426182997
+time: 197 secs
+5 Mixture Tree Bayesian Network
+converged after 11 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -123.71896096546934
+time: 21 secs
+5 Mixture Tree Bayesian Network
+converged after 25 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.00365787997484
+time: 49 secs
+5 Mixture Tree Bayesian Network
+converged after 49 iterations
+K value: 5 | loglikelihood of datasets/dna.valid.data is -122.90536057971178
+time: 95 secs
+Average logLikelihood for K=5 is -123.31768902814993
+Threshold found at: 4, breaking the loop
+Best K Value is 4
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 20:53 h
+[INFO] Finished at: 2018-04-26T13:21:44-05:00
+[INFO] Final Memory: 7M/34M
+[INFO] ------------------------------------------------------------------------

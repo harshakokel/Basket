@@ -1,0 +1,167 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset kdd.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/kdd.valid.data is -3.6179720346680075
+K value: 2 | loglikelihood of datasets/kdd.valid.data is -3.6179717094843373
+time: 32 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/kdd.valid.data is -3.624087245755756
+K value: 2 | loglikelihood of datasets/kdd.valid.data is -3.6240872292610113
+time: 32 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/kdd.valid.data is -3.622913375895817
+K value: 2 | loglikelihood of datasets/kdd.valid.data is -3.6229132990615387
+time: 32 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/kdd.valid.data is -3.63497290596512
+K value: 2 | loglikelihood of datasets/kdd.valid.data is -3.634972892115995
+time: 31 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/kdd.valid.data is -3.623971787661986
+K value: 2 | loglikelihood of datasets/kdd.valid.data is -3.6239718455416283
+time: 31 secs
+Average Baseline logLikelihood for K=2 is -3.6247834699893375
+Average logLikelihood for K=2 is -3.6247833950929023
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/kdd.valid.data is -3.608205087518639
+K value: 5 | loglikelihood of datasets/kdd.valid.data is -3.608205262548251
+time: 76 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/kdd.valid.data is -3.6082879252261777
+K value: 5 | loglikelihood of datasets/kdd.valid.data is -3.6082880208316204
+time: 76 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/kdd.valid.data is -3.6094735759520944
+K value: 5 | loglikelihood of datasets/kdd.valid.data is -3.6094736598706865
+time: 76 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/kdd.valid.data is -3.6147329466497644
+K value: 5 | loglikelihood of datasets/kdd.valid.data is -3.614732947115392
+time: 77 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/kdd.valid.data is -3.6056061950466476
+K value: 5 | loglikelihood of datasets/kdd.valid.data is -3.6056062690538844
+time: 75 secs
+Average Baseline logLikelihood for K=5 is -3.6092611460786648
+Average logLikelihood for K=5 is -3.609261231883967
+========Baseline is better==========
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5988229747217884
+K value: 10 | loglikelihood of datasets/kdd.valid.data is -3.5988230181925567
+time: 145 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/kdd.valid.data is -3.6019095980762477
+K value: 10 | loglikelihood of datasets/kdd.valid.data is -3.6019096252216083
+time: 138 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5984854744465453
+K value: 10 | loglikelihood of datasets/kdd.valid.data is -3.598485642693215
+time: 140 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/kdd.valid.data is -3.604538924526196
+K value: 10 | loglikelihood of datasets/kdd.valid.data is -3.604538968754472
+time: 138 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/kdd.valid.data is -3.600766971891358
+K value: 10 | loglikelihood of datasets/kdd.valid.data is -3.6007670802933047
+time: 139 secs
+Average Baseline logLikelihood for K=10 is -3.6009047887324273
+Average logLikelihood for K=10 is -3.6009048670310313
+========Baseline is better==========
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.valid.data is -3.599619402843125
+K value: 15 | loglikelihood of datasets/kdd.valid.data is -3.5996194270426725
+time: 209 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.valid.data is -3.598732963975426
+K value: 15 | loglikelihood of datasets/kdd.valid.data is -3.59873301285628
+time: 208 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.valid.data is -3.595402575227017
+K value: 15 | loglikelihood of datasets/kdd.valid.data is -3.5954026367952916
+time: 209 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.valid.data is -3.596747383613714
+K value: 15 | loglikelihood of datasets/kdd.valid.data is -3.596747438254002
+time: 209 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5988046442938746
+K value: 15 | loglikelihood of datasets/kdd.valid.data is -3.598804679612194
+time: 209 secs
+Average Baseline logLikelihood for K=15 is -3.597861393990631
+Average logLikelihood for K=15 is -3.5978614389120884
+========Baseline is better==========
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5954994936662037
+K value: 20 | loglikelihood of datasets/kdd.valid.data is -3.5954995647855523
+time: 279 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5984367360283334
+K value: 20 | loglikelihood of datasets/kdd.valid.data is -3.5984367752058253
+time: 278 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5949263907943236
+K value: 20 | loglikelihood of datasets/kdd.valid.data is -3.594926448011
+time: 278 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/kdd.valid.data is -3.597982474653459
+K value: 20 | loglikelihood of datasets/kdd.valid.data is -3.597982523447581
+time: 279 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5944812382246436
+K value: 20 | loglikelihood of datasets/kdd.valid.data is -3.5944812716344754
+time: 278 secs
+Average Baseline logLikelihood for K=20 is -3.596265266673393
+Average logLikelihood for K=20 is -3.596265316616887
+========Baseline is better==========
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5979610600425134
+K value: 25 | loglikelihood of datasets/kdd.valid.data is -3.597961079512469
+time: 345 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5959389507359147
+K value: 25 | loglikelihood of datasets/kdd.valid.data is -3.595938996829979
+time: 348 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5972265359879265
+K value: 25 | loglikelihood of datasets/kdd.valid.data is -3.597226565890467
+time: 349 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/kdd.valid.data is -3.597626090888648
+K value: 25 | loglikelihood of datasets/kdd.valid.data is -3.597626116766835
+time: 353 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/kdd.valid.data is -3.5971080009387277
+K value: 25 | loglikelihood of datasets/kdd.valid.data is -3.5971080418452286
+time: 349 secs
+Average Baseline logLikelihood for K=25 is -3.5971721277187463
+Average logLikelihood for K=25 is -3.597172160168996
+========Baseline is better==========
+Threshold found at 20, breaking the loop
+Best K Value is 20
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:30 h
+[INFO] Finished at: 2018-04-24T20:40:05-05:00
+[INFO] Final Memory: 8M/54M
+[INFO] ------------------------------------------------------------------------

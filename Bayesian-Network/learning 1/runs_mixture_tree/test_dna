@@ -1,0 +1,60 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset dna.ts.data ...
+converged after 100 iterations
+K value: 10 | datasets/dna.test.data : -122.45155954829929
+time: 405
+converged after 100 iterations
+K value: 10 | datasets/dna.test.data : -121.31772653428521
+time: 429
+converged after 41 iterations
+K value: 10 | datasets/dna.test.data : -123.53565963507714
+time: 176
+converged after 25 iterations
+K value: 10 | datasets/dna.test.data : -122.01429925348583
+time: 105
+converged after 100 iterations
+K value: 10 | datasets/dna.test.data : -121.35962757409132
+time: 418
+converged after 100 iterations
+K value: 10 | datasets/dna.test.data : -123.72017375338532
+time: 461
+converged after 100 iterations
+K value: 10 | datasets/dna.test.data : -122.01169145793867
+time: 453
+converged after 45 iterations
+K value: 10 | datasets/dna.test.data : -121.45265076331246
+time: 204
+converged after 68 iterations
+K value: 10 | datasets/dna.test.data : -122.91097330180486
+time: 310
+converged after 54 iterations
+K value: 10 | datasets/dna.test.data : -121.57474728651343
+time: 244
+ Average logLikelihood for K=10 is -122.23491091081937
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 53:31 min
+[INFO] Finished at: 2018-04-24T11:34:32-05:00
+[INFO] Final Memory: 8M/40M
+[INFO] ------------------------------------------------------------------------

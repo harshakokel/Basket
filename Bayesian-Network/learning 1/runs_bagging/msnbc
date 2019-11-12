@@ -1,0 +1,216 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset msnbc.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.43561903349019
+K value: 2 | loglikelihood of datasets/msnbc.valid.data is -9.435619033467066
+time: 3 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.435491227448171
+K value: 2 | loglikelihood of datasets/msnbc.valid.data is -9.435491227438733
+time: 3 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.43182385561824
+K value: 2 | loglikelihood of datasets/msnbc.valid.data is -9.431823854078381
+time: 3 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.435248611608019
+K value: 2 | loglikelihood of datasets/msnbc.valid.data is -9.435248611725761
+time: 3 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.435619851068795
+K value: 2 | loglikelihood of datasets/msnbc.valid.data is -9.435619851066454
+time: 3 secs
+Average Baseline logLikelihood for K=2 is -9.434760515846682
+Average logLikelihood for K=2 is -9.43476051555528
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431887910511074
+K value: 5 | loglikelihood of datasets/msnbc.valid.data is -9.431887912527952
+time: 9 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431799388652943
+K value: 5 | loglikelihood of datasets/msnbc.valid.data is -9.431799391093133
+time: 9 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.435182769712888
+K value: 5 | loglikelihood of datasets/msnbc.valid.data is -9.435182769729558
+time: 9 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431734288411965
+K value: 5 | loglikelihood of datasets/msnbc.valid.data is -9.431734290359381
+time: 9 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.432005533682409
+K value: 5 | loglikelihood of datasets/msnbc.valid.data is -9.432005535427896
+time: 9 secs
+Average Baseline logLikelihood for K=5 is -9.432521978194256
+Average logLikelihood for K=5 is -9.432521979827584
+========Baseline is better==========
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.432255217690582
+K value: 10 | loglikelihood of datasets/msnbc.valid.data is -9.432255219272385
+time: 18 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.43180914736985
+K value: 10 | loglikelihood of datasets/msnbc.valid.data is -9.431809148209346
+time: 17 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431720306748723
+K value: 10 | loglikelihood of datasets/msnbc.valid.data is -9.431720306566232
+time: 18 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431669943322916
+K value: 10 | loglikelihood of datasets/msnbc.valid.data is -9.431669943114898
+time: 18 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.43185454042559
+K value: 10 | loglikelihood of datasets/msnbc.valid.data is -9.431854542655156
+time: 17 secs
+Average Baseline logLikelihood for K=10 is -9.431861831111533
+Average logLikelihood for K=10 is -9.431861831963605
+========Baseline is better==========
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.432399836759782
+K value: 15 | loglikelihood of datasets/msnbc.valid.data is -9.432399838016766
+time: 27 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.432334379390765
+K value: 15 | loglikelihood of datasets/msnbc.valid.data is -9.432334380776995
+time: 27 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431643636882836
+K value: 15 | loglikelihood of datasets/msnbc.valid.data is -9.431643637986552
+time: 26 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.431959254140404
+K value: 15 | loglikelihood of datasets/msnbc.valid.data is -9.431959254685562
+time: 26 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/msnbc.valid.data is -9.433476138014894
+K value: 15 | loglikelihood of datasets/msnbc.valid.data is -9.433476139472992
+time: 27 secs
+Average Baseline logLikelihood for K=15 is -9.432362649037737
+Average logLikelihood for K=15 is -9.432362650187773
+========Baseline is better==========
+Threshold found at 10, breaking the loop
+Best K Value is 10
+Running dataset plants.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/plants.valid.data is -23.684607878292805
+K value: 2 | loglikelihood of datasets/plants.valid.data is -23.68460778708563
+time: 1 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/plants.valid.data is -23.7382842192232
+K value: 2 | loglikelihood of datasets/plants.valid.data is -23.73828426663388
+time: 1 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/plants.valid.data is -23.71784403233912
+K value: 2 | loglikelihood of datasets/plants.valid.data is -23.717841449620053
+time: 1 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/plants.valid.data is -23.697661667123647
+K value: 2 | loglikelihood of datasets/plants.valid.data is -23.69767079789676
+time: 1 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/plants.valid.data is -23.661275692499682
+K value: 2 | loglikelihood of datasets/plants.valid.data is -23.661275624245775
+time: 1 secs
+Average Baseline logLikelihood for K=2 is -23.699934697895692
+Average logLikelihood for K=2 is -23.69993598509642
+========Baseline is better==========
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/plants.valid.data is -23.63458387324647
+K value: 5 | loglikelihood of datasets/plants.valid.data is -23.634584491035557
+time: 3 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/plants.valid.data is -23.571471068223225
+K value: 5 | loglikelihood of datasets/plants.valid.data is -23.571471725629774
+time: 4 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/plants.valid.data is -23.559827409664614
+K value: 5 | loglikelihood of datasets/plants.valid.data is -23.559829004598278
+time: 3 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/plants.valid.data is -23.598330059625543
+K value: 5 | loglikelihood of datasets/plants.valid.data is -23.598329593468083
+time: 3 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/plants.valid.data is -23.658112177034223
+K value: 5 | loglikelihood of datasets/plants.valid.data is -23.658119727653208
+time: 3 secs
+Average Baseline logLikelihood for K=5 is -23.604464917558815
+Average logLikelihood for K=5 is -23.60446690847698
+========Baseline is better==========
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/plants.valid.data is -23.52140995739448
+K value: 10 | loglikelihood of datasets/plants.valid.data is -23.521411906187076
+time: 7 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/plants.valid.data is -23.49876477632855
+K value: 10 | loglikelihood of datasets/plants.valid.data is -23.49876843305507
+time: 8 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/plants.valid.data is -23.52230631014518
+K value: 10 | loglikelihood of datasets/plants.valid.data is -23.522308348007346
+time: 8 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/plants.valid.data is -23.467409966551028
+K value: 10 | loglikelihood of datasets/plants.valid.data is -23.467416804032755
+time: 7 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/plants.valid.data is -23.540116638651327
+K value: 10 | loglikelihood of datasets/plants.valid.data is -23.540118899068073
+time: 7 secs
+Average Baseline logLikelihood for K=10 is -23.51000152981411
+Average logLikelihood for K=10 is -23.510004878070063
+========Baseline is better==========
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/plants.valid.data is -23.609161093486495
+K value: 15 | loglikelihood of datasets/plants.valid.data is -23.60916194465706
+time: 10 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/plants.valid.data is -23.481210345835837
+K value: 15 | loglikelihood of datasets/plants.valid.data is -23.48121417783923
+time: 8 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/plants.valid.data is -23.462734290232266
+K value: 15 | loglikelihood of datasets/plants.valid.data is -23.462737154511398
+time: 10 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/plants.valid.data is -23.617092554007858
+K value: 15 | loglikelihood of datasets/plants.valid.data is -23.617093867593063
+time: 8 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/plants.valid.data is -23.551085965371087
+K value: 15 | loglikelihood of datasets/plants.valid.data is -23.55108849864426
+time: 10 secs
+Average Baseline logLikelihood for K=15 is -23.54425684978671
+Average logLikelihood for K=15 is -23.544259128649006
+========Baseline is better==========
+Threshold found at 0, breaking the loop
+Best K Value is 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 06:45 min
+[INFO] Finished at: 2018-04-24T22:31:11-05:00
+[INFO] Final Memory: 8M/54M
+[INFO] ------------------------------------------------------------------------

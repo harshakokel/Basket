@@ -1,0 +1,414 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset accidents.ts.data ...
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.77064890209212
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.77064930348856
+time: 19 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.74961402893829
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.749614201754696
+time: 20 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.75503053706577
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.75503121129062
+time: 15 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.77878110219374
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.77878133325846
+time: 19 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.76171343580402
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.7617138737647
+time: 16 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.76786786158331
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.767868163591565
+time: 15 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.75616628214818
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.75616642092862
+time: 15 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.75662366670983
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.75662383900976
+time: 15 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.75948853787802
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.759488599820614
+time: 18 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/accidents.test.data is -47.74524320498315
+K value: 10 | loglikelihood of datasets/accidents.test.data is -47.745243823051254
+time: 20 secs
+Average logLikelihood for K=10 is -47.76011807699588
+Average Baseline logLikelihood for K=10 is -47.760117755939646
+Running dataset baudio.ts.data ...
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.32510348878135
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.32510468944973
+time: 31 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.33122203560313
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.33122253522184
+time: 31 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.26681554005198
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.266816318327976
+time: 31 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.307438735939826
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.30744053733696
+time: 31 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.31332356592361
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.31332383645743
+time: 30 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.27219334153289
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.27219361455525
+time: 28 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.33564422574464
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.33564475684305
+time: 35 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.27919888111979
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.279200552350154
+time: 31 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.31026579963048
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.31026638622422
+time: 31 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/baudio.test.data is -63.34105028781865
+K value: 15 | loglikelihood of datasets/baudio.test.data is -63.34105153081194
+time: 30 secs
+Average logLikelihood for K=15 is -63.30822647575786
+Average Baseline logLikelihood for K=15 is -63.30822559021463
+Running dataset bnetflix.ts.data ...
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.44733073997251
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.44733109087015
+time: 75 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.40514439926332
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.40514465999081
+time: 74 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.44090315193942
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.44090338456745
+time: 78 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.42259705418974
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.42259732518096
+time: 83 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.4233127205837
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.4233130173035
+time: 79 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.43899315459751
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.43899341768845
+time: 72 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.4324714200726
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.43247164426457
+time: 74 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.44388671849731
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.4438869972655
+time: 76 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.44823378334617
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.44823399588566
+time: 80 secs
+Bagging 30 Mixture Tree Bayesian Network
+K value: 30 | Baseline loglikelihood of datasets/bnetflix.test.data is -86.43715004456071
+K value: 30 | loglikelihood of datasets/bnetflix.test.data is -86.43715020950944
+time: 75 secs
+Average logLikelihood for K=30 is -86.43400257425264
+Average Baseline logLikelihood for K=30 is -86.43400231870228
+Running dataset dna.ts.data ...
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -127.25359348237063
+K value: 5 | loglikelihood of datasets/dna.test.data is -127.25311928980119
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.82057208764839
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.82003765304638
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.78863454664138
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.78759652110125
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.5720765868635
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.57178638995259
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.75677621978481
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.75516316158469
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.3212168975733
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.3203857784674
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.0760738230099
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.07553645597316
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.17688153198615
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.17652420281807
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.27908356581423
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.27787671968109
+time: 2 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/dna.test.data is -126.69229785360005
+K value: 5 | loglikelihood of datasets/dna.test.data is -126.69190956085126
+time: 2 secs
+Average logLikelihood for K=5 is -126.5729935733277
+Average Baseline logLikelihood for K=5 is -126.57372065952923
+Running dataset jester.ts.data ...
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.71449611609586
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.71449693785883
+time: 22 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.75044487401618
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.75044585685987
+time: 22 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.78046027285262
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.78046089680187
+time: 21 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.76277033683984
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.7627709026296
+time: 21 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.75712186017846
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.75712290741606
+time: 21 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.76588177654106
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.76588238859532
+time: 22 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.74047357677108
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.74047458470008
+time: 22 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.73525019693456
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.73525095262664
+time: 22 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.74270939416998
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.7427101709633
+time: 22 secs
+Bagging 25 Mixture Tree Bayesian Network
+K value: 25 | Baseline loglikelihood of datasets/jester.test.data is -82.78253492477806
+K value: 25 | loglikelihood of datasets/jester.test.data is -82.78253583117775
+time: 22 secs
+Average logLikelihood for K=25 is -82.75321514296293
+Average Baseline logLikelihood for K=25 is -82.75321433291776
+Running dataset kdd.ts.data ...
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.2610306088713696
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.2610307171925754
+time: 286 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.267372171781561
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.267372251929676
+time: 296 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.265655111340822
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.265655099718691
+time: 300 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.2682335303622883
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.268233586216752
+time: 297 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.2634086251681653
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.2634086796874695
+time: 294 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.2718341483344116
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.271834185717169
+time: 304 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.2728867712889853
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.272886754909603
+time: 321 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.261889967599525
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.261890036624269
+time: 307 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.259953832470625
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.2599538468630223
+time: 300 secs
+Bagging 15 Mixture Tree Bayesian Network
+K value: 15 | Baseline loglikelihood of datasets/kdd.test.data is -3.266631810586846
+K value: 15 | loglikelihood of datasets/kdd.test.data is -3.26663182651187
+time: 293 secs
+Average logLikelihood for K=15 is -3.26588969853711
+Average Baseline logLikelihood for K=15 is -3.26588965778046
+Running dataset msnbc.ts.data ...
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.43382570654168
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.433825708286847
+time: 24 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.431159589486974
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.43115958821571
+time: 24 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.431776710796841
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.43177671318903
+time: 25 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.430941313278264
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.430941313838979
+time: 26 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.431185687779628
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.431185689463572
+time: 23 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.43178145796658
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.431781460634626
+time: 26 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.43062268970969
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.430622693648315
+time: 26 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.431725757530899
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.431725759588394
+time: 26 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.432670357256804
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.432670360443392
+time: 24 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/msnbc.test.data is -9.431169719273784
+K value: 10 | loglikelihood of datasets/msnbc.test.data is -9.43116972089616
+time: 26 secs
+Average logLikelihood for K=10 is -9.431685900820503
+Average Baseline logLikelihood for K=10 is -9.431685898962115
+Running dataset nltcs.ts.data ...
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.630713205653235
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.630715310593327
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.65931764612709
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.659319237429674
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.619259608298389
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.619261973134915
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.639170413514027
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.639172697494017
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.670488615486734
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.670490796068078
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.642589937494257
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.642591006984478
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.670320195611753
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.670321499297
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.670352718532868
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.670354817873896
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.671161644940687
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.671163675173284
+time: 0 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/nltcs.test.data is -9.625106193991376
+K value: 10 | loglikelihood of datasets/nltcs.test.data is -9.625108371830732
+time: 0 secs
+Average logLikelihood for K=10 is -9.649849938587941
+Average Baseline logLikelihood for K=10 is -9.64984801796504
+Running dataset plants.ts.data ...
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.491899507267267
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.49190148137804
+time: 31 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.481850057054096
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.481851407695444
+time: 24 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.53529058380136
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.535292642801526
+time: 26 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.47376234532543
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.473764638252614
+time: 26 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.512260291938883
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.51226215027448
+time: 33 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.536773224831776
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.53677441568715
+time: 19 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.480130120638165
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.48013225217186
+time: 22 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.50887344853449
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.508874533618904
+time: 24 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.486413540129323
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.486416098189135
+time: 28 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/plants.test.data is -23.445985568499264
+K value: 20 | loglikelihood of datasets/plants.test.data is -23.445989208858023
+time: 22 secs
+Average logLikelihood for K=20 is -23.49532588289272
+Average Baseline logLikelihood for K=20 is -23.495323868802004
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:23 h
+[INFO] Finished at: 2018-04-25T15:28:55-05:00
+[INFO] Final Memory: 8M/34M
+[INFO] ------------------------------------------------------------------------

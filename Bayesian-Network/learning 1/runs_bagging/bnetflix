@@ -1,0 +1,260 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset bnetflix.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.73528332351374
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -86.73528273794395
+time: 5 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.76202343138061
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -86.76202492610535
+time: 4 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.8071036312048
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -86.80710359388787
+time: 5 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.80674702364699
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -86.80674765186626
+time: 5 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.71717669373129
+K value: 2 | loglikelihood of datasets/bnetflix.valid.data is -86.71717617005783
+time: 5 secs
+Average Baseline logLikelihood for K=2 is -86.76566682069549
+Average logLikelihood for K=2 is -86.76566701597224
+========Baseline is better==========
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.58002563550941
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -86.58002554422751
+time: 13 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.56436520098272
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -86.56436515754268
+time: 13 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.58825367433596
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -86.58825354430618
+time: 10 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.56674159044987
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -86.56674524320373
+time: 12 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.5765542092626
+K value: 5 | loglikelihood of datasets/bnetflix.valid.data is -86.57655545332662
+time: 11 secs
+Average Baseline logLikelihood for K=5 is -86.57518806210811
+Average logLikelihood for K=5 is -86.57518898852133
+========Baseline is better==========
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.51124310779095
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -86.51124345689954
+time: 22 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.50522517844199
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -86.5052254726203
+time: 22 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.48145541031593
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -86.48145549845228
+time: 20 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.54900080879824
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -86.54900155035743
+time: 21 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.54079300183515
+K value: 10 | loglikelihood of datasets/bnetflix.valid.data is -86.54079323869777
+time: 24 secs
+Average Baseline logLikelihood for K=10 is -86.51754350143645
+Average logLikelihood for K=10 is -86.51754384340545
+========Baseline is better==========
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.47335349359248
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -86.47335384285246
+time: 41 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.49341565042971
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -86.49341613846273
+time: 40 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.48449858449857
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -86.48449908072931
+time: 42 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.47720164784052
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -86.47720223857623
+time: 39 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.47911464409704
+K value: 20 | loglikelihood of datasets/bnetflix.valid.data is -86.47911485213064
+time: 42 secs
+Average Baseline logLikelihood for K=20 is -86.48151680409165
+Average logLikelihood for K=20 is -86.48151723055028
+========Baseline is better==========
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43294276690699
+K value: 50 | loglikelihood of datasets/bnetflix.valid.data is -86.43294295459707
+time: 77 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.45892109259815
+K value: 50 | loglikelihood of datasets/bnetflix.valid.data is -86.45892126303416
+time: 70 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44550577855946
+K value: 50 | loglikelihood of datasets/bnetflix.valid.data is -86.44550598028393
+time: 70 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.45760803678458
+K value: 50 | loglikelihood of datasets/bnetflix.valid.data is -86.45760814125359
+time: 69 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44662010317548
+K value: 50 | loglikelihood of datasets/bnetflix.valid.data is -86.4466202085
+time: 70 secs
+Average Baseline logLikelihood for K=50 is -86.44831955560493
+Average logLikelihood for K=50 is -86.44831970953376
+========Baseline is better==========
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43498664474265
+K value: 100 | loglikelihood of datasets/bnetflix.valid.data is -86.43498671594045
+time: 149 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.4474638793484
+K value: 100 | loglikelihood of datasets/bnetflix.valid.data is -86.44746397426162
+time: 139 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.452029012093
+K value: 100 | loglikelihood of datasets/bnetflix.valid.data is -86.45202908161876
+time: 134 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44415632024513
+K value: 100 | loglikelihood of datasets/bnetflix.valid.data is -86.44415637391329
+time: 132 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.45711909860078
+K value: 100 | loglikelihood of datasets/bnetflix.valid.data is -86.45711918483862
+time: 140 secs
+Average Baseline logLikelihood for K=100 is -86.447150991006
+Average logLikelihood for K=100 is -86.44715106611456
+========Baseline is better==========
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44359129708144
+K value: 150 | loglikelihood of datasets/bnetflix.valid.data is -86.44359136250823
+time: 211 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44299873402994
+K value: 150 | loglikelihood of datasets/bnetflix.valid.data is -86.44299879216473
+time: 205 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.45869986622246
+K value: 150 | loglikelihood of datasets/bnetflix.valid.data is -86.45869991227555
+time: 205 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44332024249337
+K value: 150 | loglikelihood of datasets/bnetflix.valid.data is -86.44332032220726
+time: 206 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43524575305972
+K value: 150 | loglikelihood of datasets/bnetflix.valid.data is -86.43524580690948
+time: 211 secs
+Average Baseline logLikelihood for K=150 is -86.44477117857738
+Average logLikelihood for K=150 is -86.44477123921305
+========Baseline is better==========
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.4467108050154
+K value: 200 | loglikelihood of datasets/bnetflix.valid.data is -86.44671084750861
+time: 271 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43989121808106
+K value: 200 | loglikelihood of datasets/bnetflix.valid.data is -86.43989126241472
+time: 274 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43622639476149
+K value: 200 | loglikelihood of datasets/bnetflix.valid.data is -86.43622644053893
+time: 272 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.45102376011427
+K value: 200 | loglikelihood of datasets/bnetflix.valid.data is -86.45102379569313
+time: 274 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44473937884142
+K value: 200 | loglikelihood of datasets/bnetflix.valid.data is -86.44473941610539
+time: 278 secs
+Average Baseline logLikelihood for K=200 is -86.44371831136273
+Average logLikelihood for K=200 is -86.44371835245215
+========Baseline is better==========
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44420728766335
+K value: 250 | loglikelihood of datasets/bnetflix.valid.data is -86.44420732310266
+time: 334 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43858779310564
+K value: 250 | loglikelihood of datasets/bnetflix.valid.data is -86.43858783202919
+time: 337 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44074249570619
+K value: 250 | loglikelihood of datasets/bnetflix.valid.data is -86.44074252862164
+time: 335 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43402140753015
+K value: 250 | loglikelihood of datasets/bnetflix.valid.data is -86.4340214388315
+time: 368 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44352370869758
+K value: 250 | loglikelihood of datasets/bnetflix.valid.data is -86.44352374390368
+time: 444 secs
+Average Baseline logLikelihood for K=250 is -86.44021653854057
+Average logLikelihood for K=250 is -86.44021657329775
+========Baseline is better==========
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43869812046724
+K value: 500 | loglikelihood of datasets/bnetflix.valid.data is -86.43869813888377
+time: 856 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.4505664229661
+K value: 500 | loglikelihood of datasets/bnetflix.valid.data is -86.45056643903139
+time: 802 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.44274801148116
+K value: 500 | loglikelihood of datasets/bnetflix.valid.data is -86.44274803009108
+time: 770 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43754775405979
+K value: 500 | loglikelihood of datasets/bnetflix.valid.data is -86.43754777216425
+time: 675 secs
+Bagging 500 Mixture Tree Bayesian Network
+K value: 500 | Baseline loglikelihood of datasets/bnetflix.valid.data is -86.43920626306011
+K value: 500 | loglikelihood of datasets/bnetflix.valid.data is -86.43920628365761
+time: 704 secs
+Average Baseline logLikelihood for K=500 is -86.44175331440688
+Average logLikelihood for K=500 is -86.44175333276561
+========Baseline is better==========
+Threshold found at 250, breaking the loop
+Best K Value is 250
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:38 h
+[INFO] Finished at: 2018-04-24T19:20:00-05:00
+[INFO] Final Memory: 7M/40M
+[INFO] ------------------------------------------------------------------------

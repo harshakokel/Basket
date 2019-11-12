@@ -1,0 +1,262 @@
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset nltcs.ts.data ...
+converged after 51 iterations
+K value: 2 | datasets/nltcs.valid.data : -8.915406665726357
+time: 3
+converged after 194 iterations
+K value: 3 | datasets/nltcs.valid.data : -8.8072370380327
+time: 17
+converged after 117 iterations
+K value: 4 | datasets/nltcs.valid.data : -8.700719317418475
+time: 14
+converged after 268 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.658672922972618
+time: 39
+ Best BN is 5
+K value: 5 | nltcs.test.data : -8.723937405872583
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:13 min
+[INFO] Finished at: 2018-04-22T22:21:04-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------
+
+
+
+Running dataset nltcs.ts.data ...
+converged after 46 iterations
+K value: 2 | datasets/nltcs.valid.data : -8.88421400416254
+time: 6
+converged after 100 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.668089472505253
+time: 33
+converged after 100 iterations
+K value: 10 | datasets/nltcs.valid.data : -8.63359031954762
+time: 86
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.58555385684644
+time: 129
+ Best BN is 15
+K value: 15 | nltcs.test.data : -8.671589663310957
+time: 0
+
+Running dataset nltcs.ts.data ...
+converged after 100 iterations
+K value: 20 | datasets/nltcs.valid.data : -8.59811440340751
+time: 191
+converged after 100 iterations
+K value: 25 | datasets/nltcs.valid.data : -8.601344610728493
+time: 238
+converged after 100 iterations
+K value: 50 | datasets/nltcs.valid.data : -8.585167811826627
+time: 537
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.59816875101134
+time: 143
+ Best BN is 50
+K value: 50 | nltcs.test.data : -8.671655073725974
+time: 0
+
+
+Running dataset nltcs.ts.data ...
+converged after 56 iterations
+K value: 2 | datasets/nltcs.valid.data : -8.936135508609606
+time: 7
+converged after 81 iterations
+K value: 2 | datasets/nltcs.valid.data : -9.044114833816154
+time: 9
+converged after 86 iterations
+K value: 2 | datasets/nltcs.valid.data : -9.071513766525145
+time: 9
+converged after 58 iterations
+K value: 2 | datasets/nltcs.valid.data : -9.069299261776784
+time: 6
+converged after 69 iterations
+K value: 2 | datasets/nltcs.valid.data : -9.071513448128933
+time: 8
+ Average logLikelihood for K=2 is -9.038515363771324
+converged after 100 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.683598276288668
+time: 34
+converged after 100 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.687874108764621
+time: 33
+converged after 100 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.669843073545735
+time: 38
+converged after 100 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.682590155190328
+time: 33
+converged after 100 iterations
+K value: 5 | datasets/nltcs.valid.data : -8.688699907318354
+time: 31
+ Average logLikelihood for K=5 is -8.68252110422154
+converged after 100 iterations
+K value: 10 | datasets/nltcs.valid.data : -8.627212831651214
+time: 86
+converged after 100 iterations
+K value: 10 | datasets/nltcs.valid.data : -8.64475303304219
+time: 83
+converged after 100 iterations
+K value: 10 | datasets/nltcs.valid.data : -8.618478349614065
+time: 83
+converged after 100 iterations
+K value: 10 | datasets/nltcs.valid.data : -8.628401921636701
+time: 86
+converged after 100 iterations
+K value: 10 | datasets/nltcs.valid.data : -8.63335619202449
+time: 77
+ Average logLikelihood for K=10 is -8.630440465593733
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.620298044041359
+time: 126
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.60202958779264
+time: 136
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.601617683687126
+time: 126
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.621010654626227
+time: 127
+converged after 100 iterations
+K value: 15 | datasets/nltcs.valid.data : -8.601136728903702
+time: 127
+ Average logLikelihood for K=15 is -8.609218539810211
+converged after 100 iterations
+K value: 20 | datasets/nltcs.valid.data : -8.5991072110787
+time: 172
+converged after 100 iterations
+K value: 20 | datasets/nltcs.valid.data : -8.59417976498295
+time: 176
+converged after 100 iterations
+K value: 20 | datasets/nltcs.valid.data : -8.579950744326826
+time: 168
+converged after 100 iterations
+K value: 20 | datasets/nltcs.valid.data : -8.598085575569346
+time: 161
+converged after 100 iterations
+K value: 20 | datasets/nltcs.valid.data : -8.59223547720677
+time: 160
+ Average logLikelihood for K=20 is -8.59271175463292
+converged after 100 iterations
+K value: 25 | datasets/nltcs.valid.data : -8.60527268223188
+time: 206
+converged after 100 iterations
+K value: 25 | datasets/nltcs.valid.data : -8.587780573271713
+time: 217
+converged after 100 iterations
+K value: 25 | datasets/nltcs.valid.data : -8.584341295118081
+time: 205
+
+
+converged after 100 iterations
+K value: 25 | datasets/nltcs.valid.data : -8.593238318349957
+time: 208
+
+
+
+converged after 100 iterations
+K value: 25 | datasets/nltcs.valid.data : -8.58520500730125
+time: 213
+ Average logLikelihood for K=25 is -8.591167575254575
+converged after 100 iterations
+K value: 30 | datasets/nltcs.valid.data : -8.59728983466435
+time: 255
+converged after 100 iterations
+K value: 30 | datasets/nltcs.valid.data : -8.57997384395682
+time: 246
+converged after 100 iterations
+K value: 30 | datasets/nltcs.valid.data : -8.594364798223507
+time: 246
+converged after 100 iterations
+K value: 30 | datasets/nltcs.valid.data : -8.593581703591603
+time: 243
+converged after 100 iterations
+K value: 30 | datasets/nltcs.valid.data : -8.58735333557806
+time: 248
+ Average logLikelihood for K=30 is -8.590512703202867
+ Best BN is 30
+K value: 30 | nltcs.test.data : -8.67024662018699
+time: 0
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset nltcs.ts.data ...
+converged after 77 iterations
+K value: 35 | datasets/nltcs.valid.data : -8.584403944108931
+time: 105
+converged after 68 iterations
+K value: 35 | datasets/nltcs.valid.data : -8.586579210146459
+time: 100
+converged after 100 iterations
+K value: 35 | datasets/nltcs.valid.data : -8.594641558721484
+time: 139
+converged after 78 iterations
+K value: 35 | datasets/nltcs.valid.data : -8.593128536953843
+time: 113
+converged after 64 iterations
+K value: 35 | datasets/nltcs.valid.data : -8.592519167980452
+time: 96
+ Average logLikelihood for K=35 is -8.590254483582234
+converged after 100 iterations
+K value: 40 | datasets/nltcs.valid.data : -8.596008115667786
+time: 156
+converged after 46 iterations
+K value: 40 | datasets/nltcs.valid.data : -8.596056653335033
+time: 82
+converged after 53 iterations
+K value: 40 | datasets/nltcs.valid.data : -8.60046778362697
+time: 85
+converged after 63 iterations
+K value: 40 | datasets/nltcs.valid.data : -8.59098464277988
+time: 98
+converged after 76 iterations
+K value: 40 | datasets/nltcs.valid.data : -8.594774070981293
+time: 112
+ Average logLikelihood for K=40 is -8.595658253278192
+Threshold found at: 40
+ Best BN is 35
+K value: 35 | nltcs.test.data : -8.672055768287391
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18:11 min
+[INFO] Finished at: 2018-04-23T22:31:29-05:00
+[INFO] Final Memory: 8M/48M
+[INFO] ------------------------------------------------------------------------

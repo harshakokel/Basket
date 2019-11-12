@@ -1,0 +1,62 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset baudio.ts.data ...
+converged after 16 iterations
+K value: 20 | datasets/baudio.test.data : -57.92454503785891
+time: 457
+converged after 21 iterations
+K value: 20 | datasets/baudio.test.data : -57.839920756603284
+time: 677
+converged after 27 iterations
+K value: 20 | datasets/baudio.test.data : -57.91175334631476
+time: 694
+converged after 19 iterations
+K value: 20 | datasets/baudio.test.data : -57.867661520846866
+time: 528
+converged after 32 iterations
+K value: 20 | datasets/baudio.test.data : -57.865549821132156
+time: 882
+converged after 17 iterations
+K value: 20 | datasets/baudio.test.data : -57.931792424746995
+time: 496
+converged after 24 iterations
+K value: 20 | datasets/baudio.test.data : -57.86653803016101
+time: 527
+converged after 15 iterations
+K value: 20 | datasets/baudio.test.data : -57.97973124839787
+time: 314
+converged after 23 iterations
+K value: 20 | datasets/baudio.test.data : -57.827966016095445
+time: 458
+converged after 16 iterations
+K value: 20 | datasets/baudio.test.data : -57.95419195890415
+time: 336
+ Average logLikelihood for K=20 is -57.89696501610615
+time: 0
+Running dataset jester.ts.data ...
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:44 h
+[INFO] Finished at: 2018-04-24T04:43:45-05:00
+[INFO] Final Memory: 7M/54M
+[INFO] ------------------------------------------------------------------------

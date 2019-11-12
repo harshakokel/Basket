@@ -1,0 +1,62 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset kdd.ts.data ...
+converged after 8 iterations
+K value: 5 | datasets/kdd.test.data : -3.1105219510933004
+time: 345
+converged after 1 iterations
+K value: 5 | datasets/kdd.test.data : -3.282367432409635
+time: 42
+converged after 2 iterations
+K value: 5 | datasets/kdd.test.data : -3.2478673078563407
+time: 87
+converged after 1 iterations
+K value: 5 | datasets/kdd.test.data : -3.2814711546254465
+time: 41
+converged after 1 iterations
+K value: 5 | datasets/kdd.test.data : -3.2789156281601852
+time: 41
+converged after 8 iterations
+K value: 5 | datasets/kdd.test.data : -3.091684878879107
+time: 366
+converged after 19 iterations
+K value: 5 | datasets/kdd.test.data : -3.089786894728617
+time: 1063
+converged after 1 iterations
+K value: 5 | datasets/kdd.test.data : -3.291795724632013
+time: 58
+converged after 7 iterations
+K value: 5 | datasets/kdd.test.data : -3.0898293476241068
+time: 419
+converged after 1 iterations
+K value: 5 | datasets/kdd.test.data : -3.2904865125802396
+time: 60
+ Average logLikelihood for K=5 is -3.205472683258899
+ Best BN is 5
+K value: 5 | kdd.test.data : -3.2904865125802396
+time: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 42:07 min
+[INFO] Finished at: 2018-04-24T01:16:18-05:00
+[INFO] Final Memory: 8M/40M
+[INFO] ------------------------------------------------------------------------

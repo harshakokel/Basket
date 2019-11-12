@@ -1,0 +1,236 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset jester.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/jester.valid.data is -83.65484778934375
+K value: 2 | loglikelihood of datasets/jester.valid.data is -83.65484926129811
+time: 2 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/jester.valid.data is -83.68607874736414
+K value: 2 | loglikelihood of datasets/jester.valid.data is -83.68608230984486
+time: 2 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/jester.valid.data is -83.82067483855398
+K value: 2 | loglikelihood of datasets/jester.valid.data is -83.82067375499845
+time: 1 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/jester.valid.data is -83.80089106952047
+K value: 2 | loglikelihood of datasets/jester.valid.data is -83.80089094911843
+time: 2 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/jester.valid.data is -83.79163093077752
+K value: 2 | loglikelihood of datasets/jester.valid.data is -83.79163095267178
+time: 1 secs
+Average Baseline logLikelihood for K=2 is -83.75082467511197
+Average logLikelihood for K=2 is -83.75082544558632
+========Baseline is better==========
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/jester.valid.data is -83.34423119144653
+K value: 5 | loglikelihood of datasets/jester.valid.data is -83.34423203525682
+time: 5 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/jester.valid.data is -83.29464405910993
+K value: 5 | loglikelihood of datasets/jester.valid.data is -83.29464224885876
+time: 5 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/jester.valid.data is -83.13180802632111
+K value: 5 | loglikelihood of datasets/jester.valid.data is -83.13180601840868
+time: 4 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/jester.valid.data is -83.16104699483562
+K value: 5 | loglikelihood of datasets/jester.valid.data is -83.1610486131641
+time: 4 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/jester.valid.data is -83.25580357134892
+K value: 5 | loglikelihood of datasets/jester.valid.data is -83.25580320743707
+time: 4 secs
+Average Baseline logLikelihood for K=5 is -83.2375067686124
+Average logLikelihood for K=5 is -83.23750642462508
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/jester.valid.data is -83.07225686802926
+K value: 10 | loglikelihood of datasets/jester.valid.data is -83.0722582827316
+time: 8 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/jester.valid.data is -83.08049712523737
+K value: 10 | loglikelihood of datasets/jester.valid.data is -83.08049803222194
+time: 8 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/jester.valid.data is -83.05151816318238
+K value: 10 | loglikelihood of datasets/jester.valid.data is -83.05151938400849
+time: 10 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/jester.valid.data is -83.05869134906685
+K value: 10 | loglikelihood of datasets/jester.valid.data is -83.05869285212619
+time: 9 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/jester.valid.data is -83.04977761808824
+K value: 10 | loglikelihood of datasets/jester.valid.data is -83.04977978965616
+time: 10 secs
+Average Baseline logLikelihood for K=10 is -83.06254822472081
+Average logLikelihood for K=10 is -83.06254966814888
+========Baseline is better==========
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/jester.valid.data is -83.0620522550588
+K value: 20 | loglikelihood of datasets/jester.valid.data is -83.06205332522329
+time: 17 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/jester.valid.data is -82.9633110060224
+K value: 20 | loglikelihood of datasets/jester.valid.data is -82.96331172228109
+time: 16 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/jester.valid.data is -82.98662392774911
+K value: 20 | loglikelihood of datasets/jester.valid.data is -82.98662479080052
+time: 16 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/jester.valid.data is -82.97127844112181
+K value: 20 | loglikelihood of datasets/jester.valid.data is -82.97127938117151
+time: 15 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/jester.valid.data is -82.97856212522791
+K value: 20 | loglikelihood of datasets/jester.valid.data is -82.97856357247512
+time: 16 secs
+Average Baseline logLikelihood for K=20 is -82.992365551036
+Average logLikelihood for K=20 is -82.9923665583903
+========Baseline is better==========
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/jester.valid.data is -82.85609928285979
+K value: 50 | loglikelihood of datasets/jester.valid.data is -82.85609984926501
+time: 39 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/jester.valid.data is -82.90424165728945
+K value: 50 | loglikelihood of datasets/jester.valid.data is -82.90424220990367
+time: 42 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/jester.valid.data is -82.87391572315713
+K value: 50 | loglikelihood of datasets/jester.valid.data is -82.87391591748364
+time: 43 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/jester.valid.data is -82.86247333060237
+K value: 50 | loglikelihood of datasets/jester.valid.data is -82.86247375203092
+time: 43 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/jester.valid.data is -82.93244232072344
+K value: 50 | loglikelihood of datasets/jester.valid.data is -82.9324427606908
+time: 43 secs
+Average Baseline logLikelihood for K=50 is -82.88583446292644
+Average logLikelihood for K=50 is -82.88583489787482
+========Baseline is better==========
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/jester.valid.data is -82.80775623183122
+K value: 100 | loglikelihood of datasets/jester.valid.data is -82.80775659182096
+time: 83 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/jester.valid.data is -82.86895418854988
+K value: 100 | loglikelihood of datasets/jester.valid.data is -82.86895446937835
+time: 83 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/jester.valid.data is -82.86235010297912
+K value: 100 | loglikelihood of datasets/jester.valid.data is -82.86235042950052
+time: 81 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/jester.valid.data is -82.83707418849352
+K value: 100 | loglikelihood of datasets/jester.valid.data is -82.83707442869189
+time: 81 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/jester.valid.data is -82.8559402472897
+K value: 100 | loglikelihood of datasets/jester.valid.data is -82.85594054806236
+time: 82 secs
+Average Baseline logLikelihood for K=100 is -82.8464149918287
+Average logLikelihood for K=100 is -82.84641529349082
+========Baseline is better==========
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/jester.valid.data is -82.83091101750333
+K value: 150 | loglikelihood of datasets/jester.valid.data is -82.8309111904522
+time: 119 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/jester.valid.data is -82.83647131205416
+K value: 150 | loglikelihood of datasets/jester.valid.data is -82.8364714839346
+time: 124 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/jester.valid.data is -82.83912195219847
+K value: 150 | loglikelihood of datasets/jester.valid.data is -82.8391221124752
+time: 123 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/jester.valid.data is -82.83327865661475
+K value: 150 | loglikelihood of datasets/jester.valid.data is -82.8332788231683
+time: 126 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/jester.valid.data is -82.81701950980396
+K value: 150 | loglikelihood of datasets/jester.valid.data is -82.81701969455517
+time: 130 secs
+Average Baseline logLikelihood for K=150 is -82.83136048963493
+Average logLikelihood for K=150 is -82.83136066091708
+========Baseline is better==========
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/jester.valid.data is -82.82691816358614
+K value: 200 | loglikelihood of datasets/jester.valid.data is -82.82691833056182
+time: 162 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/jester.valid.data is -82.81164996627872
+K value: 200 | loglikelihood of datasets/jester.valid.data is -82.8116501115946
+time: 157 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/jester.valid.data is -82.78211656924888
+K value: 200 | loglikelihood of datasets/jester.valid.data is -82.78211675811777
+time: 158 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/jester.valid.data is -82.82972961200099
+K value: 200 | loglikelihood of datasets/jester.valid.data is -82.82972980748615
+time: 162 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/jester.valid.data is -82.81749103179916
+K value: 200 | loglikelihood of datasets/jester.valid.data is -82.81749118984582
+time: 163 secs
+Average Baseline logLikelihood for K=200 is -82.81358106858276
+Average logLikelihood for K=200 is -82.81358123952124
+========Baseline is better==========
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/jester.valid.data is -82.8213341129597
+K value: 250 | loglikelihood of datasets/jester.valid.data is -82.82133424074237
+time: 195 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/jester.valid.data is -82.83498531962337
+K value: 250 | loglikelihood of datasets/jester.valid.data is -82.83498542897938
+time: 198 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/jester.valid.data is -82.84490411636398
+K value: 250 | loglikelihood of datasets/jester.valid.data is -82.84490424192451
+time: 196 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/jester.valid.data is -82.82288571407074
+K value: 250 | loglikelihood of datasets/jester.valid.data is -82.82288583695949
+time: 197 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/jester.valid.data is -82.79073548712418
+K value: 250 | loglikelihood of datasets/jester.valid.data is -82.79073563938711
+time: 195 secs
+Average Baseline logLikelihood for K=250 is -82.8229689500284
+Average logLikelihood for K=250 is -82.82296907759857
+========Baseline is better==========
+Threshold found at 200, breaking the loop
+Best K Value is 200
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 53:21 min
+[INFO] Finished at: 2018-04-24T18:58:56-05:00
+[INFO] Final Memory: 8M/40M
+[INFO] ------------------------------------------------------------------------

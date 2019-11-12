@@ -1,0 +1,236 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for Learning-Bayesian-Network:Learning-Bayesian-Network:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 26, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Learning-Bayesian-Network 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ Learning-Bayesian-Network ---
+Running dataset baudio.ts.data ...
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/baudio.valid.data is -63.30622293713877
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -63.30622096543064
+time: 5 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/baudio.valid.data is -63.31895864177978
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -63.31895954648643
+time: 3 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/baudio.valid.data is -63.37777850145418
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -63.37777917371281
+time: 3 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/baudio.valid.data is -63.28278744876794
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -63.282775489784235
+time: 4 secs
+Bagging 2 Mixture Tree Bayesian Network
+K value: 2 | Baseline loglikelihood of datasets/baudio.valid.data is -63.32870809064398
+K value: 2 | loglikelihood of datasets/baudio.valid.data is -63.32870556816405
+time: 5 secs
+Average Baseline logLikelihood for K=2 is -63.322891123956936
+Average logLikelihood for K=2 is -63.32288814871563
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/baudio.valid.data is -63.133800339521024
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -63.13380057728734
+time: 11 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/baudio.valid.data is -63.065814600779184
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -63.06581595423665
+time: 10 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/baudio.valid.data is -63.00087814727281
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -63.00087785693121
+time: 9 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/baudio.valid.data is -63.05616778470965
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -63.05616740924657
+time: 11 secs
+Bagging 5 Mixture Tree Bayesian Network
+K value: 5 | Baseline loglikelihood of datasets/baudio.valid.data is -63.001594132333466
+K value: 5 | loglikelihood of datasets/baudio.valid.data is -63.001595007650074
+time: 9 secs
+Average Baseline logLikelihood for K=5 is -63.05165100092323
+Average logLikelihood for K=5 is -63.05165136107037
+========Baseline is better==========
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/baudio.valid.data is -62.94914193095952
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -62.94914269777639
+time: 18 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/baudio.valid.data is -62.97116631769362
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -62.97116698921175
+time: 18 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/baudio.valid.data is -62.91205245653465
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -62.91205376622669
+time: 17 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/baudio.valid.data is -62.93108547806166
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -62.93108698213569
+time: 16 secs
+Bagging 10 Mixture Tree Bayesian Network
+K value: 10 | Baseline loglikelihood of datasets/baudio.valid.data is -62.93110138612769
+K value: 10 | loglikelihood of datasets/baudio.valid.data is -62.931101980850706
+time: 18 secs
+Average Baseline logLikelihood for K=10 is -62.93890951387543
+Average logLikelihood for K=10 is -62.93891048324025
+========Baseline is better==========
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/baudio.valid.data is -62.8604288071646
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -62.86042923226828
+time: 31 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/baudio.valid.data is -62.88398123765513
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -62.883981811533175
+time: 34 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/baudio.valid.data is -62.874894980417224
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -62.874895439642465
+time: 33 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/baudio.valid.data is -62.81471307248577
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -62.81471386515481
+time: 35 secs
+Bagging 20 Mixture Tree Bayesian Network
+K value: 20 | Baseline loglikelihood of datasets/baudio.valid.data is -62.89918385130328
+K value: 20 | loglikelihood of datasets/baudio.valid.data is -62.8991843260205
+time: 38 secs
+Average Baseline logLikelihood for K=20 is -62.8666403898052
+Average logLikelihood for K=20 is -62.866640934923836
+========Baseline is better==========
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/baudio.valid.data is -62.80182851163257
+K value: 50 | loglikelihood of datasets/baudio.valid.data is -62.801829023721766
+time: 88 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/baudio.valid.data is -62.84530753867347
+K value: 50 | loglikelihood of datasets/baudio.valid.data is -62.84530788065064
+time: 86 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/baudio.valid.data is -62.8223593439278
+K value: 50 | loglikelihood of datasets/baudio.valid.data is -62.82235959632499
+time: 80 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/baudio.valid.data is -62.7997655498269
+K value: 50 | loglikelihood of datasets/baudio.valid.data is -62.799765940102425
+time: 88 secs
+Bagging 50 Mixture Tree Bayesian Network
+K value: 50 | Baseline loglikelihood of datasets/baudio.valid.data is -62.83578800537698
+K value: 50 | loglikelihood of datasets/baudio.valid.data is -62.83578831583621
+time: 99 secs
+Average Baseline logLikelihood for K=50 is -62.82100978988755
+Average logLikelihood for K=50 is -62.82101015132721
+========Baseline is better==========
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/baudio.valid.data is -62.78785011920894
+K value: 100 | loglikelihood of datasets/baudio.valid.data is -62.787850295308075
+time: 203 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/baudio.valid.data is -62.780238624275825
+K value: 100 | loglikelihood of datasets/baudio.valid.data is -62.78023886268969
+time: 162 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/baudio.valid.data is -62.79341690515436
+K value: 100 | loglikelihood of datasets/baudio.valid.data is -62.7934170746029
+time: 157 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/baudio.valid.data is -62.762726273626775
+K value: 100 | loglikelihood of datasets/baudio.valid.data is -62.76272647996115
+time: 148 secs
+Bagging 100 Mixture Tree Bayesian Network
+K value: 100 | Baseline loglikelihood of datasets/baudio.valid.data is -62.80092766341301
+K value: 100 | loglikelihood of datasets/baudio.valid.data is -62.80092786190046
+time: 149 secs
+Average Baseline logLikelihood for K=100 is -62.78503191713579
+Average logLikelihood for K=100 is -62.78503211489245
+========Baseline is better==========
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/baudio.valid.data is -62.778453017144464
+K value: 150 | loglikelihood of datasets/baudio.valid.data is -62.778453160322485
+time: 221 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/baudio.valid.data is -62.794778361034666
+K value: 150 | loglikelihood of datasets/baudio.valid.data is -62.79477850379344
+time: 221 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/baudio.valid.data is -62.77998388317674
+K value: 150 | loglikelihood of datasets/baudio.valid.data is -62.77998398487912
+time: 223 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/baudio.valid.data is -62.75359238609868
+K value: 150 | loglikelihood of datasets/baudio.valid.data is -62.75359255828796
+time: 225 secs
+Bagging 150 Mixture Tree Bayesian Network
+K value: 150 | Baseline loglikelihood of datasets/baudio.valid.data is -62.77858398962434
+K value: 150 | loglikelihood of datasets/baudio.valid.data is -62.778584156260855
+time: 248 secs
+Average Baseline logLikelihood for K=150 is -62.77707832741578
+Average logLikelihood for K=150 is -62.77707847270877
+========Baseline is better==========
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/baudio.valid.data is -62.76258313992765
+K value: 200 | loglikelihood of datasets/baudio.valid.data is -62.76258323606899
+time: 339 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/baudio.valid.data is -62.77658359883646
+K value: 200 | loglikelihood of datasets/baudio.valid.data is -62.77658369986435
+time: 345 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/baudio.valid.data is -62.76918499330931
+K value: 200 | loglikelihood of datasets/baudio.valid.data is -62.76918509365139
+time: 316 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/baudio.valid.data is -62.74648921590931
+K value: 200 | loglikelihood of datasets/baudio.valid.data is -62.746489325797604
+time: 299 secs
+Bagging 200 Mixture Tree Bayesian Network
+K value: 200 | Baseline loglikelihood of datasets/baudio.valid.data is -62.769140640919645
+K value: 200 | loglikelihood of datasets/baudio.valid.data is -62.769140729739824
+time: 342 secs
+Average Baseline logLikelihood for K=200 is -62.76479631778047
+Average logLikelihood for K=200 is -62.764796417024435
+========Baseline is better==========
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/baudio.valid.data is -62.7814526251405
+K value: 250 | loglikelihood of datasets/baudio.valid.data is -62.78145271093047
+time: 405 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/baudio.valid.data is -62.77846985149161
+K value: 250 | loglikelihood of datasets/baudio.valid.data is -62.77846992813461
+time: 295 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/baudio.valid.data is -62.75957333578483
+K value: 250 | loglikelihood of datasets/baudio.valid.data is -62.759573436526225
+time: 288 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/baudio.valid.data is -62.783504341252204
+K value: 250 | loglikelihood of datasets/baudio.valid.data is -62.78350442123324
+time: 309 secs
+Bagging 250 Mixture Tree Bayesian Network
+K value: 250 | Baseline loglikelihood of datasets/baudio.valid.data is -62.76478608769526
+K value: 250 | loglikelihood of datasets/baudio.valid.data is -62.76478617229388
+time: 359 secs
+Average Baseline logLikelihood for K=250 is -62.77355724827288
+Average logLikelihood for K=250 is -62.77355733382368
+========Baseline is better==========
+Threshold found at 200, breaking the loop
+Best K Value is 200
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:40 h
+[INFO] Finished at: 2018-04-24T16:48:53-05:00
+[INFO] Final Memory: 8M/34M
+[INFO] ------------------------------------------------------------------------
