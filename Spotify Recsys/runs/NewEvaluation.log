@@ -1,0 +1,17 @@
+Precision @ 10 64.17488807632003 - 0.07576728226247938
+Precision @ 50 0.1808402276492624
+Precision @ 100 0.26695434752975333
+Precision @ 200 0.3706527437904067
+Precision @ 500 0.514563554793459
+Precision @ 1000 0.6355032933062387
+Testing completed in 2834 secs
+
+Correlation function:
+private static double correlation(String playlist1, String playlist2, String track ) {
+		double weightedCorrelation = 0;
+		if(playlistTrackMap.get(playlist2).contains(track)){
+			weightedCorrelation = tracksCorrelation(playlist1, playlist2) + albumsCorrelation(playlist1, playlist2)+artistsCorrelation(playlist1, playlist2);
+			weightedCorrelation = weightedCorrelation/((playlistTrackMap.get(playlist1).size()+playlistTrackMap.get(playlist2).size())*3);
+		}		
+		return weightedCorrelation;
+	}

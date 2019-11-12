@@ -20,6 +20,7 @@ All of them were implemented as part of class assignments.
 8. POS Tagger
 9. Word Sense Disambiguation
 10. Hidden Markov Model
+10. Semantic Search Application - Search Party
 11. Luv Manipulation
     * Linear scaling
     * Histogram equalization
@@ -27,3 +28,4 @@ All of them were implemented as part of class assignments.
     * Create negative images
     * Gray conversion options
 13. Detect Shush and Wink
+14. Spotify Recsys

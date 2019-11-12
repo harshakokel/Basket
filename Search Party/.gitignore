@@ -1,0 +1,8 @@
+solr-7.1.0
+*.pyc
+*.zip
+resources/stanford-ner-2017-06-09
+resources/stanford-parser-full-2017-06-09
+*.log
+._.gitignore
+*.xlsx
