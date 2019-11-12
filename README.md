@@ -1,4 +1,5 @@
-# Machine-Learning
+# Basket of AI/ML/NLP/CV implementations
+
 
 This repository contains implementations of below mentioned Machine Learning,  Natural Language Processing or Computer Vision algorithms.
 
