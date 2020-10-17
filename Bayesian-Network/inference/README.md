@@ -9,7 +9,7 @@ The goal of this programming assignment is to understand the relative properties
 
 Evaluate them with the alarm Bayes net presented in the class, shown in Figure 14.2 in the Russell and Norvig book and implemented in the `alarmNetwork.py`.
 
-![Alarm Network](https://github.com/harshakokel/BayesianNetwork/blob/master/bayes-net.png "BayesianNetwork")
+![Alarm Network](./bayes-net.png "BayesianNetwork")
 
 For Approx Inference methods, you need to vary number of samples between 1 to 1000 and then run the different algorithms. This will explain how the probabilities vary with the number of samples.
 
