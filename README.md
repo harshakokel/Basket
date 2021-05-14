@@ -30,3 +30,11 @@ All of them were implemented as part of class assignments.
     * Gray conversion options
 13. Detect Shush and Wink
 14. Spotify Recsys
+15. Implementation of Gradient Descent variant
+    * Gradient Descent with fixed Learning Rate 
+    * Gradient Descent with Armijo line-search v1, v2, v3, v4
+    * Nesterov's Accelerated Gradient Descent   
+    * Conjugate Gradient Descent with Armijo Line-Search V4  
+    * Barzilai-Borwein Gradient Descent  
+    * Limited-memory BFGS
+
