@@ -23,9 +23,9 @@ Report your results for the following queries
 
 For each query, you need to submit a table as shown below:
 
-|No of Samples| Prior Sampling | Rejection Sampling | Likelihood Weightage |
-| ------ | ------ | ------ | ------ | ------ |
-| 1 | | | |
+|No of Samples| Prior Sampling | Rejection Sampling | Likelihood Weightage |   
+| ----------  | -------------- | ------------------ | -------------------- |    
+| 1 | | | | 
 | ... | | | |
 | ... | | | |
 | ... | | | |
