@@ -6,4 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: Title of Index.md
 ---
+
+
+## This is a test doc
