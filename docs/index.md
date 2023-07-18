@@ -7,6 +7,7 @@
 #
 layout: home
 title: Title of Index.md
+site.title: Site Title
 ---
 
 
